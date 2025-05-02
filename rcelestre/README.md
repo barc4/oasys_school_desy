@@ -11,8 +11,8 @@ Wednesday
 Presentation Luca Rebuffi with Rafael Celestre - ```SR_source.pptx```
 
 - 9:45 45’ Wavefront propagation for X-ray beamlines with SRW
-Presentation Rafael Celestre with Luca Rebuffi - ```SRW_propagators.pptx```
+Presentation Rafael Celestre with Luca Rebuffi - ```SRW_propagators_45min.pptx```
 
 - 14:50 45’ CRL ray tracing, error simulations, wavefront propagation (SRW, HYBRID)
-Presentation Rafael Celestre with Luca Rebuffi - ```CRL_sim.pptx```
+Presentation Rafael Celestre with Luca Rebuffi - ```CRL_simulations_45min.pptx```
 
