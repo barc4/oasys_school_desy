@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheme version="2.0" title="XPCS_SA - Power Density - CRLs - U2.1: E1 = 11 KeV - DMM + realistic features + RS to H" description="XPCS_SA" working_directory="/Users/lrebuffi/Oasys/BLOMS/XPCS" workspace_units="2">
+<scheme version="2.0" title="XPCS_SA - Power Density - CRLs - U2.1: E1 = 11 KeV - DMM + realistic features + RS to H" description="XPCS_SA" working_directory="/Users/lrebuffi/Library/CloudStorage/Box-Box/Luca_Documents/Documents/Scientific Production/Conferences/2025/OASYS-School-DESY/Lessons/oasys_school_desy/lrebuffi/6.Thermal Load/WD/XPCS" workspace_units="2">
 	<nodes>
 		<node id="0" name="PreRefl" qualified_name="orangecontrib.shadow.widgets.preprocessor.xsh_prerefl.OWxsh_prerefl" project_name="OASYS1-ShadowOui" version="" title="Si" position="(67.0, -323.0)" />
 		<node id="1" name="PreRefl" qualified_name="orangecontrib.shadow.widgets.preprocessor.xsh_prerefl.OWxsh_prerefl" project_name="OASYS1-ShadowOui" version="" title="Rh" position="(125.0, -325.0)" />
@@ -33,9 +33,9 @@
 		<node id="29" name="Height Profile Simulator" qualified_name="orangecontrib.shadow.widgets.preprocessor.height_profile_simulator.OWheight_profile_simulator" project_name="OASYS1-ShadowOui" version="" title="M1" position="(206.0, -164.0)" />
 		<node id="30" name="Height Profile Simulator" qualified_name="orangecontrib.shadow.widgets.preprocessor.height_profile_simulator.OWheight_profile_simulator" project_name="OASYS1-ShadowOui" version="" title="M2" position="(381.0, -166.0)" />
 		<node id="31" name="Thickness File Reader" qualified_name="orangecontrib.syned.widgets.tools.thickness_file_reader.OWThicknessFileReader" project_name="OASYS1-SYNED" version="" title="Thickness File Reader" position="(930.0, -292.0)" />
-		<node id="32" name="Hybrid Screen" qualified_name="orangecontrib.shadow.widgets.special_elements.ow_hybrid_screen.HybridScreen" project_name="OASYS1-ShadowOui" version="" title="Hybrid Screen" position="(1074.0, -280.0)" />
+		<node id="32" name="Hybrid Screen (Legacy)" qualified_name="orangecontrib.shadow.widgets.special_elements.ow_hybrid_screen.HybridScreen" project_name="OASYS1-ShadowOui" version="" title="Hybrid Screen" position="(1074.0, -280.0)" />
 		<node id="33" name="Thickness File Reader" qualified_name="orangecontrib.syned.widgets.tools.thickness_file_reader.OWThicknessFileReader" project_name="OASYS1-SYNED" version="" title="Thickness File Reader" position="(876.0, 167.0)" />
-		<node id="34" name="Hybrid Screen" qualified_name="orangecontrib.shadow.widgets.special_elements.ow_hybrid_screen.HybridScreen" project_name="OASYS1-ShadowOui" version="" title="Hybrid Screen" position="(1083.0, 177.0)" />
+		<node id="34" name="Hybrid Screen (Legacy)" qualified_name="orangecontrib.shadow.widgets.special_elements.ow_hybrid_screen.HybridScreen" project_name="OASYS1-ShadowOui" version="" title="Hybrid Screen" position="(1083.0, 177.0)" />
 		<node id="35" name="Undulator Spectrum" qualified_name="orangecontrib.xoppy.widgets.source.undulator_spectrum.OWundulator_spectrum" project_name="OASYS1-XOPPY" version="" title="Undulator Spectrum" position="(418.0, 292.0)" />
 		<node id="36" name="Multilayer" qualified_name="orangecontrib.xoppy.widgets.optics.multilayer.OWMlultilayer" project_name="OASYS1-XOPPY" version="" title="Multilayer" position="(699.0, -194.0)" />
 		<node id="37" name="Plot XY" qualified_name="orangecontrib.shadow.widgets.plots.ow_plot_xy.PlotXY" project_name="OASYS1-ShadowOui" version="" title="Plot XY" position="(1333.0, -79.0)" />
@@ -699,7 +699,7 @@ ZWRfZmlsZV90eXBllEsAjA51c2VyX2RlZmluZWRfaJRLAYwOdXNlcl9kZWZpbmVkX2uUSwGMDnVz
 ZXJfZGVmaW5lZF9slEsBjA52ZXJ0aWNhbF9xdW90ZZRHAAAAAAAAAACMCXZpZXdfdHlwZZRLAowY
 d3JpdGVfb3V0X2luY19yZWZfYW5nbGVzlEsAdS4=
 </properties>
-		<properties node_id="13" format="pickle">gASV5QsAAAAAAAB9lCiMAkJolEcAAAAAAAAAAIwCQnaURz/4AAAAAAAAjAJLaJRHAAAAAAAAAACM
+		<properties node_id="13" format="pickle">gASVNQwAAAAAAAB9lCiMAkJolEcAAAAAAAAAAIwCQnaURz/4AAAAAAAAjAJLaJRHAAAAAAAAAACM
 Akt2lEc/71oQFs54nowdYW5ndWxhcl9kaXN0cmlidXRpb25fc3J3X2ZpbGWUjCJpbnRlbnNpdHlf
 YW5ndWxhcl9kaXN0cmlidXRpb24uZGF0lIwLYXV0b19lbmVyZ3mUR0DFfAAAAAAAjAthdXRvX2V4
 cGFuZJRLAYwQYXV0b19leHBhbmRfcmF5c5RLAYwUYXV0b19oYXJtb25pY19udW1iZXKUSwGMDWNv
@@ -726,33 +726,35 @@ bmFtZZSMDU5PTkVTUEVDSUZJRUSUjA9vcHRpbWl6ZV9zb3VyY2WUSwCMCnBoYXNlX2RpZmaURwAA
 AAAAAAAAjAxwb2xhcml6YXRpb26USwGME3BvbGFyaXphdGlvbl9kZWdyZWWURz/wAAAAAAAAjAxy
 aW5nX2N1cnJlbnSURz/JmZmZmZmajA9zYXZlX3Nyd19yZXN1bHSUSwCME3NhdmVkV2lkZ2V0R2Vv
 bWV0cnmUjANzaXCUjA5fdW5waWNrbGVfdHlwZZSTlIwMUHlRdDUuUXRDb3JllIwKUUJ5dGVBcnJh
-eZRDQgHZ0MsAAwAAAAAAjAAAADwAAAWzAAADEwAAAIwAAABYAAAFswAAAxMAAAAAAgAAAAZAAAAA
+eZRDQgHZ0MsAAwAAAAAAjAAAADwAAAWzAAADEwAAAIwAAABYAAAFswAAAxMAAAAAAgAAAAeAAAAA
 jAAAAFgAAAWzAAADE5SFlIeUUpSMBHNlZWSUTaASjBlzb3VyY2VfZGltZW5zaW9uX3Nyd19maWxl
 lIweaW50ZW5zaXR5X3NvdXJjZV9kaW1lbnNpb24uZGF0lIwcc291cmNlX2RpbWVuc2lvbl93Zl9k
-aXN0YW5jZZRHQDmDU/fO2ReMHnNvdXJjZV9kaW1lbnNpb25fd2ZfaF9zbGl0X2dhcJRHP2BiTdLx
-qfyMIXNvdXJjZV9kaW1lbnNpb25fd2ZfaF9zbGl0X3BvaW50c5RLyIwec291cmNlX2RpbWVuc2lv
-bl93Zl92X3NsaXRfZ2FwlEc/UGJN0vGp/Iwhc291cmNlX2RpbWVuc2lvbl93Zl92X3NsaXRfcG9p
-bnRzlEtkjCxzeW1tZXRyeV92c19sb25naXR1ZGluYWxfcG9zaXRpb25faG9yaXpvbnRhbJRLAIwq
-c3ltbWV0cnlfdnNfbG9uZ2l0dWRpbmFsX3Bvc2l0aW9uX3ZlcnRpY2FslEsBjBZ0eXBlX29mX2lu
-aXRpYWxpemF0aW9ulEsAjBB1bmR1bGF0b3JfcGVyaW9klEc/lYEGJN0vG4wMdXNlX2hhcm1vbmlj
-lEsBjBF1c2Vfc2lnbWFfb3JfZndobZRLAIwKdXNlX3N0b2tlc5RLAYwZdmVydGljYWxfY2VudHJh
-bF9wb3NpdGlvbpRHAAAAAAAAAACMLnZlcnRpY2FsX3JhbmdlX21vZGlmaWNhdGlvbl9mYWN0b3Jf
-YXRfcmVzaXppbmeURz/wAAAAAAAAjDN2ZXJ0aWNhbF9yZXNvbHV0aW9uX21vZGlmaWNhdGlvbl9m
-YWN0b3JfYXRfcmVzaXppbmeUR0AUAAAAAAAAjAl2aWV3X3R5cGWUSwKMIXdhaXN0X2JhY2tfcHJv
-cGFnYXRpb25fcGFyYW1ldGVyc5RLAYw2d2Fpc3RfaG9yaXpvbnRhbF9yYW5nZV9tb2RpZmljYXRp
-b25fZmFjdG9yX2F0X3Jlc2l6aW5nlEc/4AAAAAAAAIw7d2Fpc3RfaG9yaXpvbnRhbF9yZXNvbHV0
-aW9uX21vZGlmaWNhdGlvbl9mYWN0b3JfYXRfcmVzaXppbmeUR0AUAAAAAAAAjA53YWlzdF9wb3Np
-dGlvbpRHAAAAAAAAAACME3dhaXN0X3Bvc2l0aW9uX2F1dG+USwCMFXdhaXN0X3Bvc2l0aW9uX2F1
-dG9faJRHAAAAAAAAAACMFXdhaXN0X3Bvc2l0aW9uX2F1dG9fdpRHAAAAAAAAAACMGndhaXN0X3Bv
-c2l0aW9uX2NhbGN1bGF0aW9ulEsAjBt3YWlzdF9wb3NpdGlvbl91c2VyX2RlZmluZWSURwAAAAAA
-AAAAjDR3YWlzdF92ZXJ0aWNhbF9yYW5nZV9tb2RpZmljYXRpb25fZmFjdG9yX2F0X3Jlc2l6aW5n
-lEc/4AAAAAAAAIw5d2Fpc3RfdmVydGljYWxfcmVzb2x1dGlvbl9tb2RpZmljYXRpb25fZmFjdG9y
-X2F0X3Jlc2l6aW5nlEdAFAAAAAAAAIwLd2hpY2hfd2Fpc3SUSwKMFHhfZGl2ZXJnZW5jZXNfZmFj
-dG9ylEc/8AAAAAAAAIwSeF9kaXZlcmdlbmNlc19maWxllIwReF9kaXZlcmdlbmNlcy50eHSUjBJ4
-X3Bvc2l0aW9uc19mYWN0b3KURz+EeuFHrhR7jBB4X3Bvc2l0aW9uc19maWxllIwPeF9wb3NpdGlv
-bnMudHh0lIwUel9kaXZlcmdlbmNlc19mYWN0b3KURz/wAAAAAAAAjBJ6X2RpdmVyZ2VuY2VzX2Zp
-bGWUjBF6X2RpdmVyZ2VuY2VzLnR4dJSMEnpfcG9zaXRpb25zX2ZhY3RvcpRHP4R64UeuFHuMEHpf
-cG9zaXRpb25zX2ZpbGWUjA96X3Bvc2l0aW9ucy50eHSUdS4=
+aXN0YW5jZZRHQDmDU/fO2ReMHHNvdXJjZV9kaW1lbnNpb25fd2ZfaF9zbGl0X2OURwAAAAAAAAAA
+jB5zb3VyY2VfZGltZW5zaW9uX3dmX2hfc2xpdF9nYXCURz9gYk3S8an8jCFzb3VyY2VfZGltZW5z
+aW9uX3dmX2hfc2xpdF9wb2ludHOUS8iMHHNvdXJjZV9kaW1lbnNpb25fd2Zfdl9zbGl0X2OURwAA
+AAAAAAAAjB5zb3VyY2VfZGltZW5zaW9uX3dmX3Zfc2xpdF9nYXCURz9QYk3S8an8jCFzb3VyY2Vf
+ZGltZW5zaW9uX3dmX3Zfc2xpdF9wb2ludHOUS2SMLHN5bW1ldHJ5X3ZzX2xvbmdpdHVkaW5hbF9w
+b3NpdGlvbl9ob3Jpem9udGFslEsAjCpzeW1tZXRyeV92c19sb25naXR1ZGluYWxfcG9zaXRpb25f
+dmVydGljYWyUSwGMFnR5cGVfb2ZfaW5pdGlhbGl6YXRpb26USwCMEHVuZHVsYXRvcl9wZXJpb2SU
+Rz+VgQYk3S8bjAx1c2VfaGFybW9uaWOUSwGMEXVzZV9zaWdtYV9vcl9md2htlEsAjAp1c2Vfc3Rv
+a2VzlEsBjBl2ZXJ0aWNhbF9jZW50cmFsX3Bvc2l0aW9ulEcAAAAAAAAAAIwudmVydGljYWxfcmFu
+Z2VfbW9kaWZpY2F0aW9uX2ZhY3Rvcl9hdF9yZXNpemluZ5RHP/AAAAAAAACMM3ZlcnRpY2FsX3Jl
+c29sdXRpb25fbW9kaWZpY2F0aW9uX2ZhY3Rvcl9hdF9yZXNpemluZ5RHQBQAAAAAAACMCXZpZXdf
+dHlwZZRLAowhd2Fpc3RfYmFja19wcm9wYWdhdGlvbl9wYXJhbWV0ZXJzlEsBjDZ3YWlzdF9ob3Jp
+em9udGFsX3JhbmdlX21vZGlmaWNhdGlvbl9mYWN0b3JfYXRfcmVzaXppbmeURz/gAAAAAAAAjDt3
+YWlzdF9ob3Jpem9udGFsX3Jlc29sdXRpb25fbW9kaWZpY2F0aW9uX2ZhY3Rvcl9hdF9yZXNpemlu
+Z5RHQBQAAAAAAACMDndhaXN0X3Bvc2l0aW9ulEcAAAAAAAAAAIwTd2Fpc3RfcG9zaXRpb25fYXV0
+b5RLAIwVd2Fpc3RfcG9zaXRpb25fYXV0b19olEcAAAAAAAAAAIwVd2Fpc3RfcG9zaXRpb25fYXV0
+b192lEcAAAAAAAAAAIwad2Fpc3RfcG9zaXRpb25fY2FsY3VsYXRpb26USwCMG3dhaXN0X3Bvc2l0
+aW9uX3VzZXJfZGVmaW5lZJRHAAAAAAAAAACMNHdhaXN0X3ZlcnRpY2FsX3JhbmdlX21vZGlmaWNh
+dGlvbl9mYWN0b3JfYXRfcmVzaXppbmeURz/gAAAAAAAAjDl3YWlzdF92ZXJ0aWNhbF9yZXNvbHV0
+aW9uX21vZGlmaWNhdGlvbl9mYWN0b3JfYXRfcmVzaXppbmeUR0AUAAAAAAAAjAt3aGljaF93YWlz
+dJRLAowUeF9kaXZlcmdlbmNlc19mYWN0b3KURz/wAAAAAAAAjBJ4X2RpdmVyZ2VuY2VzX2ZpbGWU
+jBF4X2RpdmVyZ2VuY2VzLnR4dJSMEnhfcG9zaXRpb25zX2ZhY3RvcpRHP4R64UeuFHuMEHhfcG9z
+aXRpb25zX2ZpbGWUjA94X3Bvc2l0aW9ucy50eHSUjBR6X2RpdmVyZ2VuY2VzX2ZhY3RvcpRHP/AA
+AAAAAACMEnpfZGl2ZXJnZW5jZXNfZmlsZZSMEXpfZGl2ZXJnZW5jZXMudHh0lIwSel9wb3NpdGlv
+bnNfZmFjdG9ylEc/hHrhR64Ue4wQel9wb3NpdGlvbnNfZmlsZZSMD3pfcG9zaXRpb25zLnR4dJR1
+Lg==
 </properties>
 		<properties node_id="14" format="pickle">gASVpF4AAAAAAAB9lCiMC2F1dG9fbl9zdGVwlE3oA4wVYXV0b19wZXJjX3RvdGFsX3Bvd2VylEdA
 WPmZmZmZmowLYXV0b2Jpbm5pbmeUSwGMFWF1dG9iaW5uaW5nX2ZpbGVfbmFtZZSMD2F1dG9iaW5u
@@ -1176,8 +1178,8 @@ LjE0OCwgMC4wMjUKMTEwMzAuMTg1LCAxLjM4LCAwLjAyNQoxMTAzMS41NjUsIDEuNzcyLCAwLjAy
 NQoxMTAzMy4zMzYsIDIuNTg1LCAwLjAyNQoxMTAzNS45MjIsIDQuNTk1LCAwLjAyNQoxMTA0MC41
 MTcsIDcuMTA4LCAwLjAyNQqUjBFmaWx0ZXJzX2ZpbGVfbmFtZZSMC2ZpbHRlcnMuZGF0lIwObG9h
 ZF9maWxlX21vZGWUSwGME3NhdmVkV2lkZ2V0R2VvbWV0cnmUjANzaXCUjA5fdW5waWNrbGVfdHlw
-ZZSTlIwMUHlRdDUuUXRDb3JllIwKUUJ5dGVBcnJheZRDQgHZ0MsAAwAAAAAI9AAAAHIAAA2jAAAD
-UwAAB4AAAAC+AAAMLwAAA4MAAAABAgAAAAeAAAAI9AAAAI4AAA2jAAADU5SFlIeUUpSMDnNlZWRf
+ZZSTlIwMUHlRdDUuUXRDb3JllIwKUUJ5dGVBcnJheZRDQgHZ0MsAAwAA///7UAAAAKL/////AAAD
+g///+1AAAAC+/////wAAA4MAAAABAgAAAAeA///7UAAAAL7/////AAADg5SFlIeUUpSMDnNlZWRf
 aW5jcmVtZW50lEsBjA9zZW5kX3Bvd2VyX3N0ZXCUSwCMCXNraXBfcm93c5RLAYwRdG90YWxfbmV3
 X29iamVjdHOUTegDdS4=
 </properties>
@@ -1207,7 +1209,7 @@ X3JhbmdlX3ZfZnJvbZRHAAAAAAAAAACMDm5ld19yYW5nZV92X3RvlEcAAAAAAAAAAIwObnVtYmVy
 X29mX2JpbnOUTfQBjBBudW1iZXJfb2ZfYmluc192lE30AYwLcG9seV9kZWdyZWWUSwSMBHJheXOU
 SwCMFnJlcGxhY2VfcG9vcl9zdGF0aXN0aWOUSwGME3NhdmVkV2lkZ2V0R2VvbWV0cnmUjANzaXCU
 jA5fdW5waWNrbGVfdHlwZZSTlIwMUHlRdDUuUXRDb3JllIwKUUJ5dGVBcnJheZRDQgHZ0MsAAwAA
-AAAHgAAAADwAAAynAAADEwAAB4AAAABYAAAMpwAAAxMAAAABAgAAAAeAAAAHgAAAAFgAAAynAAAD
+///62AAAADz/////AAADE///+tgAAABY/////wAAAxMAAAABAgAAAAeA///62AAAAFj/////AAAD
 E5SFlIeUUpSMDnNjYWxpbmdfZmFjdG9ylEc/8AAAAAAAAIwNc2hvd19maXRfcGxvdJRLAYwHc2ln
 bWFfeJRHAAAAAAAAAACMB3NpZ21hX3mURwAAAAAAAAAAjAV0aXRsZZSMA1gsWpSMCXZpZXdfdHlw
 ZZRLAYwOeF9jb2x1bW5faW5kZXiUSwKMB3hfcmFuZ2WUSwGMC3hfcmFuZ2VfbWF4lEc/qZmZmZmZ

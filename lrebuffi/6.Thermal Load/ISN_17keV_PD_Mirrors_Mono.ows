@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheme version="2.0" title="ISN 17 KeV + PD @ Mirrors + Mono" description="" working_directory="/Users/lrebuffi/Oasys/BLOMS/ISN/Mirrors-Mono" workspace_units="2">
+<scheme version="2.0" title="ISN 17 KeV + PD @ Mirrors + Mono" description="" working_directory="/Users/lrebuffi/Library/CloudStorage/Box-Box/Luca_Documents/Documents/Scientific Production/Conferences/2025/OASYS-School-DESY/Lessons/oasys_school_desy/lrebuffi/6.Thermal Load/WD/ISN/Mirrors_Mono" workspace_units="2">
 	<nodes>
 		<node id="0" name="Ellipsoid Mirror" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_ellipsoid_mirror.EllipsoidMirror" project_name="OASYS1-ShadowOui" version="" title="M2V Rh" position="(194.0, 64.0)" />
 		<node id="1" name="Screen-Slits" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_screen_slits.ScreenSlits" project_name="OASYS1-ShadowOui" version="" title="WBS" position="(-43.0, 53.0)" />
 		<node id="2" name="Plane Mirror" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_plane_mirror.PlaneMirror" project_name="OASYS1-ShadowOui" version="" title="M1V" position="(88.0, 110.0)" />
 		<node id="3" name="PreRefl" qualified_name="orangecontrib.shadow.widgets.preprocessor.xsh_prerefl.OWxsh_prerefl" project_name="OASYS1-ShadowOui" version="" title="PreRefl Rh" position="(35.0, -58.0)" />
 		<node id="4" name="Undulator Light Source" qualified_name="orangecontrib.syned.widgets.light_sources.ow_undulator_light_source.OWUndulatorLightSource" project_name="OASYS1-SYNED" version="" title="Undulator Light Source" position="(-129.0, 400.0)" />
-		<node id="5" name="Undulator Spectrum" qualified_name="orangecontrib.xoppy.widgets.source.undulator_spectrum.OWundulator_spectrum" project_name="OASYS1-XOPPY" version="" title="Undulator Spectrum" position="(133.0, 410.0)" />
+		<node id="5" name="Undulator Spectrum" qualified_name="orangecontrib.xoppy.widgets.source.undulator_spectrum.OWundulator_spectrum" project_name="OASYS1-XOPPY" version="" title="Undulator Spectrum" position="(136.0, 405.0)" />
 		<node id="6" name="Plane Crystal" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_plane_crystal.PlaneCrystal" project_name="OASYS1-ShadowOui" version="" title="DCM1" position="(380.0, -142.0)" />
 		<node id="7" name="Bragg" qualified_name="orangecontrib.shadow.widgets.preprocessor.xsh_bragg.OWxsh_bragg" project_name="OASYS1-ShadowOui" version="" title="Bragg" position="(260.0, -221.0)" />
 		<node id="8" name="Shadow/SRW Undulator" qualified_name="orangecontrib.shadow_advanced_tools.widgets.sources.ow_hybrid_undulator.HybridUndulator" project_name="OASYS1-ShadowOui-Advanced-Tools" version="" title="U25 Brightness" position="(-145.0, 52.0)" />
@@ -548,7 +548,7 @@ Z2V0R2VvbWV0cnmUjANzaXCUjA5fdW5waWNrbGVfdHlwZZSTlIwMUHlRdDUuUXRDb3JllIwKUUJ5
 dGVBcnJheZRDQgHZ0MsAAwAAAAAB0QAAAHgAAARaAAACuQAAAdEAAACUAAAEWgAAArkAAAAAAAAA
 AAZAAAAB0QAAAJQAAARaAAACuZSFlIeUUpR1Lg==
 </properties>
-		<properties node_id="8" format="pickle">gASV5wsAAAAAAAB9lCiMAkJolEcAAAAAAAAAAIwCQnaURz/4AAAAAAAAjAJLaJRHAAAAAAAAAACM
+		<properties node_id="8" format="pickle">gASVNwwAAAAAAAB9lCiMAkJolEcAAAAAAAAAAIwCQnaURz/4AAAAAAAAjAJLaJRHAAAAAAAAAACM
 Akt2lEc/+uYgJTl1bYwdYW5ndWxhcl9kaXN0cmlidXRpb25fc3J3X2ZpbGWUjCJpbnRlbnNpdHlf
 YW5ndWxhcl9kaXN0cmlidXRpb24uZGF0lIwLYXV0b19lbmVyZ3mURwAAAAAAAAAAjAthdXRvX2V4
 cGFuZJRLAIwQYXV0b19leHBhbmRfcmF5c5RLAIwUYXV0b19oYXJtb25pY19udW1iZXKUSwGMDWNv
@@ -578,30 +578,32 @@ bWV0cnmUjANzaXCUjA5fdW5waWNrbGVfdHlwZZSTlIwMUHlRdDUuUXRDb3JllIwKUUJ5dGVBcnJh
 eZRDQgHZ0MsAAwAAAAAAPwAAABkAAAVmAAAC8AAAAIwAAABYAAAFswAAAxMAAAAAAgAAAAZAAAAA
 PwAAADUAAAVmAAAC8JSFlIeUUpSMBHNlZWSUTfUDjBlzb3VyY2VfZGltZW5zaW9uX3Nyd19maWxl
 lIweaW50ZW5zaXR5X3NvdXJjZV9kaW1lbnNpb24uZGF0lIwcc291cmNlX2RpbWVuc2lvbl93Zl9k
-aXN0YW5jZZRHQDwAAAAAAACMHnNvdXJjZV9kaW1lbnNpb25fd2ZfaF9zbGl0X2dhcJRHP1iTdLxq
-fvqMIXNvdXJjZV9kaW1lbnNpb25fd2ZfaF9zbGl0X3BvaW50c5RNLQGMHnNvdXJjZV9kaW1lbnNp
-b25fd2Zfdl9zbGl0X2dhcJRHP1iTdLxqfvqMIXNvdXJjZV9kaW1lbnNpb25fd2Zfdl9zbGl0X3Bv
-aW50c5RNLQGMLHN5bW1ldHJ5X3ZzX2xvbmdpdHVkaW5hbF9wb3NpdGlvbl9ob3Jpem9udGFslEsA
-jCpzeW1tZXRyeV92c19sb25naXR1ZGluYWxfcG9zaXRpb25fdmVydGljYWyUSwGMFnR5cGVfb2Zf
-aW5pdGlhbGl6YXRpb26USwCMEHVuZHVsYXRvcl9wZXJpb2SURz+ZmZmZmZmajAx1c2VfaGFybW9u
-aWOUSwGMEXVzZV9zaWdtYV9vcl9md2htlEsAjAp1c2Vfc3Rva2VzlEsBjBl2ZXJ0aWNhbF9jZW50
-cmFsX3Bvc2l0aW9ulEcAAAAAAAAAAIwudmVydGljYWxfcmFuZ2VfbW9kaWZpY2F0aW9uX2ZhY3Rv
-cl9hdF9yZXNpemluZ5RHP+AAAAAAAACMM3ZlcnRpY2FsX3Jlc29sdXRpb25fbW9kaWZpY2F0aW9u
-X2ZhY3Rvcl9hdF9yZXNpemluZ5RHQBQAAAAAAACMCXZpZXdfdHlwZZRLAowhd2Fpc3RfYmFja19w
-cm9wYWdhdGlvbl9wYXJhbWV0ZXJzlEsBjDZ3YWlzdF9ob3Jpem9udGFsX3JhbmdlX21vZGlmaWNh
-dGlvbl9mYWN0b3JfYXRfcmVzaXppbmeURz/gAAAAAAAAjDt3YWlzdF9ob3Jpem9udGFsX3Jlc29s
-dXRpb25fbW9kaWZpY2F0aW9uX2ZhY3Rvcl9hdF9yZXNpemluZ5RHQBQAAAAAAACMDndhaXN0X3Bv
-c2l0aW9ulEcAAAAAAAAAAIwTd2Fpc3RfcG9zaXRpb25fYXV0b5RLAIwVd2Fpc3RfcG9zaXRpb25f
-YXV0b19olEcAAAAAAAAAAIwVd2Fpc3RfcG9zaXRpb25fYXV0b192lEcAAAAAAAAAAIwad2Fpc3Rf
-cG9zaXRpb25fY2FsY3VsYXRpb26USwCMG3dhaXN0X3Bvc2l0aW9uX3VzZXJfZGVmaW5lZJRHAAAA
-AAAAAACMNHdhaXN0X3ZlcnRpY2FsX3JhbmdlX21vZGlmaWNhdGlvbl9mYWN0b3JfYXRfcmVzaXpp
-bmeURz/gAAAAAAAAjDl3YWlzdF92ZXJ0aWNhbF9yZXNvbHV0aW9uX21vZGlmaWNhdGlvbl9mYWN0
-b3JfYXRfcmVzaXppbmeUR0AUAAAAAAAAjAt3aGljaF93YWlzdJRLAowUeF9kaXZlcmdlbmNlc19m
-YWN0b3KURz/wAAAAAAAAjBJ4X2RpdmVyZ2VuY2VzX2ZpbGWUjBF4X2RpdmVyZ2VuY2VzLnR4dJSM
-EnhfcG9zaXRpb25zX2ZhY3RvcpRHP4R64UeuFHuMEHhfcG9zaXRpb25zX2ZpbGWUjA94X3Bvc2l0
-aW9ucy50eHSUjBR6X2RpdmVyZ2VuY2VzX2ZhY3RvcpRHP/AAAAAAAACMEnpfZGl2ZXJnZW5jZXNf
-ZmlsZZSMEXpfZGl2ZXJnZW5jZXMudHh0lIwSel9wb3NpdGlvbnNfZmFjdG9ylEc/hHrhR64Ue4wQ
-el9wb3NpdGlvbnNfZmlsZZSMD3pfcG9zaXRpb25zLnR4dJR1Lg==
+aXN0YW5jZZRHQDwAAAAAAACMHHNvdXJjZV9kaW1lbnNpb25fd2ZfaF9zbGl0X2OURwAAAAAAAAAA
+jB5zb3VyY2VfZGltZW5zaW9uX3dmX2hfc2xpdF9nYXCURz9Yk3S8an76jCFzb3VyY2VfZGltZW5z
+aW9uX3dmX2hfc2xpdF9wb2ludHOUTS0BjBxzb3VyY2VfZGltZW5zaW9uX3dmX3Zfc2xpdF9jlEcA
+AAAAAAAAAIwec291cmNlX2RpbWVuc2lvbl93Zl92X3NsaXRfZ2FwlEc/WJN0vGp++owhc291cmNl
+X2RpbWVuc2lvbl93Zl92X3NsaXRfcG9pbnRzlE0tAYwsc3ltbWV0cnlfdnNfbG9uZ2l0dWRpbmFs
+X3Bvc2l0aW9uX2hvcml6b250YWyUSwCMKnN5bW1ldHJ5X3ZzX2xvbmdpdHVkaW5hbF9wb3NpdGlv
+bl92ZXJ0aWNhbJRLAYwWdHlwZV9vZl9pbml0aWFsaXphdGlvbpRLAIwQdW5kdWxhdG9yX3Blcmlv
+ZJRHP5mZmZmZmZqMDHVzZV9oYXJtb25pY5RLAYwRdXNlX3NpZ21hX29yX2Z3aG2USwCMCnVzZV9z
+dG9rZXOUSwGMGXZlcnRpY2FsX2NlbnRyYWxfcG9zaXRpb26URwAAAAAAAAAAjC52ZXJ0aWNhbF9y
+YW5nZV9tb2RpZmljYXRpb25fZmFjdG9yX2F0X3Jlc2l6aW5nlEc/4AAAAAAAAIwzdmVydGljYWxf
+cmVzb2x1dGlvbl9tb2RpZmljYXRpb25fZmFjdG9yX2F0X3Jlc2l6aW5nlEdAFAAAAAAAAIwJdmll
+d190eXBllEsCjCF3YWlzdF9iYWNrX3Byb3BhZ2F0aW9uX3BhcmFtZXRlcnOUSwGMNndhaXN0X2hv
+cml6b250YWxfcmFuZ2VfbW9kaWZpY2F0aW9uX2ZhY3Rvcl9hdF9yZXNpemluZ5RHP+AAAAAAAACM
+O3dhaXN0X2hvcml6b250YWxfcmVzb2x1dGlvbl9tb2RpZmljYXRpb25fZmFjdG9yX2F0X3Jlc2l6
+aW5nlEdAFAAAAAAAAIwOd2Fpc3RfcG9zaXRpb26URwAAAAAAAAAAjBN3YWlzdF9wb3NpdGlvbl9h
+dXRvlEsAjBV3YWlzdF9wb3NpdGlvbl9hdXRvX2iURwAAAAAAAAAAjBV3YWlzdF9wb3NpdGlvbl9h
+dXRvX3aURwAAAAAAAAAAjBp3YWlzdF9wb3NpdGlvbl9jYWxjdWxhdGlvbpRLAIwbd2Fpc3RfcG9z
+aXRpb25fdXNlcl9kZWZpbmVklEcAAAAAAAAAAIw0d2Fpc3RfdmVydGljYWxfcmFuZ2VfbW9kaWZp
+Y2F0aW9uX2ZhY3Rvcl9hdF9yZXNpemluZ5RHP+AAAAAAAACMOXdhaXN0X3ZlcnRpY2FsX3Jlc29s
+dXRpb25fbW9kaWZpY2F0aW9uX2ZhY3Rvcl9hdF9yZXNpemluZ5RHQBQAAAAAAACMC3doaWNoX3dh
+aXN0lEsCjBR4X2RpdmVyZ2VuY2VzX2ZhY3RvcpRHP/AAAAAAAACMEnhfZGl2ZXJnZW5jZXNfZmls
+ZZSMEXhfZGl2ZXJnZW5jZXMudHh0lIwSeF9wb3NpdGlvbnNfZmFjdG9ylEc/hHrhR64Ue4wQeF9w
+b3NpdGlvbnNfZmlsZZSMD3hfcG9zaXRpb25zLnR4dJSMFHpfZGl2ZXJnZW5jZXNfZmFjdG9ylEc/
+8AAAAAAAAIwSel9kaXZlcmdlbmNlc19maWxllIwRel9kaXZlcmdlbmNlcy50eHSUjBJ6X3Bvc2l0
+aW9uc19mYWN0b3KURz+EeuFHrhR7jBB6X3Bvc2l0aW9uc19maWxllIwPel9wb3NpdGlvbnMudHh0
+lHUu
 </properties>
 		<properties node_id="9" format="pickle">gASVDaAAAAAAAAB9lCiMC2F1dG9fbl9zdGVwlE1ABowVYXV0b19wZXJjX3RvdGFsX3Bvd2VylEdA
 WQAAAAAAAIwLYXV0b2Jpbm5pbmeUSwGMFWF1dG9iaW5uaW5nX2ZpbGVfbmFtZZSMD2F1dG9iaW5u
@@ -1596,8 +1598,8 @@ mZmZmowLUklOR19FTkVSR1mUR0AYAAAAAAAAjBFTSE9XX1VSR0VOVF9QTE9UU5RLAIwGU0lHTUFY
 lEc/jk92X9itrIwHU0lHTUFYUJRHP2bwBo24useMBlNJR01BWZRHP25Pdl/YrayMB1NJR01BWVCU
 Rz9Yk3S8an76jBZTT1VSQ0VfU0NSRUVOX0RJU1RBTkNFlEdAPAAAAAAAAIwTVkVSVElDQUxfQUND
 RVBUQU5DRZRHP/CXjU/fO2SME3NhdmVkV2lkZ2V0R2VvbWV0cnmUjANzaXCUjA5fdW5waWNrbGVf
-dHlwZZSTlIwMUHlRdDUuUXRDb3JllIwKUUJ5dGVBcnJheZRDQgHZ0MsAAwAAAAABWgAAAHUAAAaB
-AAADTAAAAVsAAACRAAAGggAAA0wAAAAAAgAAAAaQAAABWgAAAJEAAAaBAAADTJSFlIeUUpSMCXZp
+dHlwZZSTlIwMUHlRdDUuUXRDb3JllIwKUUJ5dGVBcnJheZRDQgHZ0MsAAwAAAAABWwAAAHUAAAaC
+AAADTAAAAVsAAACRAAAGggAAA0wAAAAAAgAAAAeAAAABWwAAAJEAAAaCAAADTJSFlIeUUpSMCXZp
 ZXdfdHlwZZRLAXUu
 </properties>
 	</node_properties>
