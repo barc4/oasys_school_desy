@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheme version="2.0" title="ISN 17 KeV + PD @ BDAs + DMM -&gt; Red Shift" description="" working_directory="/Users/lrebuffi/Library/CloudStorage/Box-Box/Luca_Documents/Documents/Scientific Production/Conferences/2025/OASYS-School-DESY/Lessons/oasys_school_desy/lrebuffi/6.Thermal Load/WD/ISN/BDA_DMM/Red-Shift" workspace_units="2">
+<scheme version="2.0" title="ISN 17 KeV + PD @ BDAs + DMM -&gt; Red Shift" description="" working_directory="/Users/lrebuffi/Desktop/OASYS-SCHOOL/ISN/BDA_DMM/Red-Shift" workspace_units="2">
 	<nodes>
 		<node id="0" name="Ellipsoid Mirror" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_ellipsoid_mirror.EllipsoidMirror" project_name="OASYS1-ShadowOui" version="" title="M2V Rh" position="(194.0, 65.0)" />
 		<node id="1" name="Screen-Slits" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_screen_slits.ScreenSlits" project_name="OASYS1-ShadowOui" version="" title="WBS" position="(-43.0, 53.0)" />
