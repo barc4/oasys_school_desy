@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheme version="2.0" title="ISN 25 KeV" description="In Situ Nanoprobe Beamline" working_directory="/Users/lrebuffi/Library/CloudStorage/Box-Box/Luca_Documents/Documents/Scientific Production/Conferences/2025/OASYS-School-DESY/Lessons/5.Live Demo on SRW/ISN" workspace_units="2">
+<scheme version="2.0" title="ISN 25 KeV" description="In Situ Nanoprobe Beamline" working_directory="/Users/lrebuffi/Desktop/Working-Directory/Live-Demo-SRW/ISN" workspace_units="2">
 	<nodes>
 		<node id="0" name="Undulator" qualified_name="orangecontrib.srw.widgets.light_sources.ow_srw_undulator.OWSRWUndulator" project_name="OASYS1-SRW" version="" title="U2.5" position="(-122.0, 256.0)" />
 		<node id="1" name="Elliptical Mirror" qualified_name="orangecontrib.srw.widgets.optical_elements.ow_srw_elliptical_mirror.OWSRWEllipticalMirror" project_name="OASYS1-SRW" version="" title="M2V" position="(167.0, 255.0)" />
@@ -289,8 +289,8 @@ ZWRfeJRNUyKMDG5ld19sZW5ndGhfeJRHP8m6XjU/fO6MDG5ld19sZW5ndGhfeZRHP787ZFocrAiM
 GXBvd2VyX2xhd19leHBvbmVudF9iZXRhX3iUR0AIAAAAAAAAjA1yZW5vcm1hbGl6ZV94lEsAjA1y
 ZW5vcm1hbGl6ZV95lEsBjAVybXNfeJRHAAAAAAAAAACMBXJtc195lEc/3MzMzMzMzYwTc2F2ZWRX
 aWRnZXRHZW9tZXRyeZSMA3NpcJSMDl91bnBpY2tsZV90eXBllJOUjAxQeVF0NS5RdENvcmWUjApR
-Qnl0ZUFycmF5lENCAdnQywADAAAAAADIAAAAFwAABe8AAALoAAAAyAAAAC0AAAXvAAAC6AAAAAAC
-AAAAD/AAAADIAAAALQAABe8AAALolIWUh5RSlIwOc2VydmVyX2FkZHJlc3OUjCpodHRwOi8vZnRw
+Qnl0ZUFycmF5lENCAdnQywADAAAAAABgAAAAGQAABXMAAANUAAAAYAAAADUAAAVzAAADVAAAAAAA
+AAAAB4AAAABgAAAANQAABXMAAANUlIWUh5RSlIwOc2VydmVyX2FkZHJlc3OUjCpodHRwOi8vZnRw
 LmVzcmYuZXUvcHViL3NjaXNvZnQvZGFiYW0vZGF0YS+UjAVzaGFwZZRLAIwQc2xvcGVfZXJyb3Jf
 ZnJvbZRHAAAAAAAAAACMDnNsb3BlX2Vycm9yX3RvlEc/+AAAAAAAAIwGc3RlcF94lEc/UGJN0vGp
 /IwPdXNlX3VuZGV0cmVuZGVklEsAdS4=
