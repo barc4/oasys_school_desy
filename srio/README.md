@@ -7,12 +7,14 @@ Tuesday
 - 11:50 40’ Introduction to SHADOW4
   ```intro_shadow4_40min.pptx```
 
-- 13:30 45’ Power transport and management in synchrotron beamlines & Live demo
-  Presentation with Philipp Brumund ```power_transport_BrumundSanchezDelRio_novideos_50m.pptx``` TODO: move to Tue 15:35
-
-- 15:20 50’ Live demo of SHADOW4 of a SXR beamline
+- 13:30 45’ Live demo of SHADOW4 of a SXR beamline
   ```shadow4_photon_transport.ows```
-  ```shadow4_ALS-U_10012_FLEXON.ows ``` TODO: move to Tue 13:30
+  ```shadow4_ALS-U_10012_FLEXON.ows ```
+
+- 15:20 50’ Power transport and management in synchrotron beamlines & Live demo
+  Presentation with Philipp Brumund ```power_transport_BrumundSanchezDelRio_novideos_50min.pptx```
+
+
 
 Wednesday
 =========
