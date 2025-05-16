@@ -8,7 +8,7 @@ Tuesday
   ```intro_shadow4_40min.pptx```
 
 - 13:30 45’ Power transport and management in synchrotron beamlines & Live demo
-  Presentation with Philipp Brumund ```BrumundSanchezDelRio_power_transport_45m.pptx``` TODO: move to Tue 15:35
+  Presentation with Philipp Brumund ```power_transport_BrumundSanchezDelRio_novideos_50m.pptx``` TODO: move to Tue 15:35
 
 - 15:20 50’ Live demo of SHADOW4 of a SXR beamline
   ```shadow4_photon_transport.ows```
