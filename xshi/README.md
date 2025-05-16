@@ -11,4 +11,4 @@ Wednesday
 Thursday
 =========
 
-- 15:40 20’ Curved analyzers - ```TBD```
+- 15:40 20’ Curved analyzers - ```Curved crystal analyzers_Xianbo.pptx```
