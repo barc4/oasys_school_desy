@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheme version="2.0" title="ISN 17 KeV + PD @ Mirrors + Mono" description="" working_directory="/Users/lrebuffi/Library/CloudStorage/Box-Box/Luca_Documents/Documents/Scientific Production/Conferences/2025/OASYS-School-DESY/Lessons/oasys_school_desy/lrebuffi/6.Thermal Load/WD/ISN/Mirrors_Mono" workspace_units="2">
+<scheme version="2.0" title="ISN 17 KeV + PD @ Mirrors + Mono" description="" working_directory="/Users/lrebuffi/Desktop/Working-Directory/Thermal-Load/ISN/Mirrors" workspace_units="2">
 	<nodes>
 		<node id="0" name="Ellipsoid Mirror" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_ellipsoid_mirror.EllipsoidMirror" project_name="OASYS1-ShadowOui" version="" title="M2V Rh" position="(194.0, 64.0)" />
 		<node id="1" name="Screen-Slits" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_screen_slits.ScreenSlits" project_name="OASYS1-ShadowOui" version="" title="WBS" position="(-43.0, 53.0)" />
@@ -388,8 +388,8 @@ X2FuZ2xlc5RLAHUu
 		<properties node_id="3" format="pickle">gASVFAEAAAAAAAB9lCiMB0RFTlNJVFmUR0Ao0euFHrhSjAVFX01BWJRHQNGUAAAAAACMBUVfTUlO
 lEdAz0AAAAAAAIwGRV9TVEVQlEc/8AAAAAAAAIwLU0hBRE9XX0ZJTEWUjBNSaF9yZWZsZWN0aXZp
 dHkuZGF0lIwGU1lNQk9MlIwCUmiUjBNzYXZlZFdpZGdldEdlb21ldHJ5lIwDc2lwlIwOX3VucGlj
-a2xlX3R5cGWUk5SMDFB5UXQ1LlF0Q29yZZSMClFCeXRlQXJyYXmUQ0IB2dDLAAMAAAAAAgMAAAB4
-AAAEKAAAArkAAAIDAAAAlAAABCgAAAK5AAAAAAAAAAAGQAAAAgMAAACUAAAEKAAAArmUhZSHlFKU
+a2xlX3R5cGWUk5SMDFB5UXQ1LlF0Q29yZZSMClFCeXRlQXJyYXmUQ0IB2dDLAAMAAAAAAgMAAABk
+AAAEKAAAAqUAAAIDAAAAgAAABCgAAAKlAAAAAAAAAAAHgAAAAgMAAACAAAAEKAAAAqWUhZSHlFKU
 dS4=
 </properties>
 		<properties node_id="4" format="pickle">gASV1wQAAAAAAAB9lCiMDEtfaG9yaXpvbnRhbJRHAAAAAAAAAACMCktfdmVydGljYWyURz/65iAl
@@ -1321,8 +1321,8 @@ CjEzMjQ5MC4xNTEsIDM2MDAuNDE0LCAwLjY4MDQKMTM2MDkwLjU2NCwgNTM1NC4xNjQsIDAuNjgw
 NAoxNDE0NDQuNzI4LCA3NzI3Ljc5NiwgMC42ODA0CjE0OTE3Mi41MjQsIDExODI3LjQ3NiwgMC42
 ODA0CpSMEWZpbHRlcnNfZmlsZV9uYW1llIwLZmlsdGVycy5kYXSUjA5sb2FkX2ZpbGVfbW9kZZRL
 AYwTc2F2ZWRXaWRnZXRHZW9tZXRyeZSMA3NpcJSMDl91bnBpY2tsZV90eXBllJOUjAxQeVF0NS5R
-dENvcmWUjApRQnl0ZUFycmF5lENCAdnQywADAAAAAAj8AAAATAAADasAAAMtAAAI/AAAAGgAAA2r
-AAADLQAAAAEAAAAAB4AAAAj8AAAAaAAADasAAAMtlIWUh5RSlIwOc2VlZF9pbmNyZW1lbnSUSwGM
+dENvcmWUjApRQnl0ZUFycmF5lENCAdnQywADAAAAAAFeAAAAQwAABg0AAAMkAAABXgAAAF8AAAYN
+AAADJAAAAAAAAAAAB4AAAAFeAAAAXwAABg0AAAMklIWUh5RSlIwOc2VlZF9pbmNyZW1lbnSUSwGM
 D3NlbmRfcG93ZXJfc3RlcJRLAIwJc2tpcF9yb3dzlEsBjBF0b3RhbF9uZXdfb2JqZWN0c5RNQAZ1
 Lg==
 </properties>

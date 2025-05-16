@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheme version="2.0" title="ISN 17 KeV + PD @ BDAs + DCM -&gt; Harmonic" description="" working_directory="/Users/lrebuffi/Desktop/OASYS-SCHOOL/ISN/BDA_DCM/Harmonic" workspace_units="2">
+<scheme version="2.0" title="ISN 17 KeV + PD @ BDAs + DCM -&gt; Harmonic" description="" working_directory="/Users/lrebuffi/Desktop/Working-Directory/Thermal-Load/ISN/BDA_DCM/Harmonic" workspace_units="2">
 	<nodes>
 		<node id="0" name="Ellipsoid Mirror" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_ellipsoid_mirror.EllipsoidMirror" project_name="OASYS1-ShadowOui" version="" title="M2V Rh" position="(194.0, 65.0)" />
 		<node id="1" name="Screen-Slits" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_screen_slits.ScreenSlits" project_name="OASYS1-ShadowOui" version="" title="WBS" position="(-43.0, 53.0)" />
@@ -717,8 +717,8 @@ LCAwLjAzMiwgMC4wCjE3MDAzLjg3MiwgMC4wMzIsIDAuMAoxNzAwMy45MDQsIDAuMDMyLCAwLjAK
 MTcwMDMuOTM2LCAwLjAzMiwgMC4wCjE3MDAzLjk2OCwgMC4wMzIsIDAuMAqUjBFmaWx0ZXJzX2Zp
 bGVfbmFtZZSMC2ZpbHRlcnMuZGF0lIwObG9hZF9maWxlX21vZGWUSwGME3NhdmVkV2lkZ2V0R2Vv
 bWV0cnmUjANzaXCUjA5fdW5waWNrbGVfdHlwZZSTlIwMUHlRdDUuUXRDb3JllIwKUUJ5dGVBcnJh
-eZRDQgHZ0MsAAwAA///4wAAAACf///1vAAADCP//+jwAAAEe///+6wAAA+MAAAABAgAAAAeA///4
-wAAAAEP///1vAAADCJSFlIeUUpSMDnNlZWRfaW5jcmVtZW50lEsBjA9zZW5kX3Bvd2VyX3N0ZXCU
+eZRDQgHZ0MsAAwAAAAABXgAAAF8AAAYNAAADQAAAAV4AAAB7AAAGDQAAA0AAAAAAAAAAAAeAAAAB
+XgAAAHsAAAYNAAADQJSFlIeUUpSMDnNlZWRfaW5jcmVtZW50lEsBjA9zZW5kX3Bvd2VyX3N0ZXCU
 SwCMCXNraXBfcm93c5RLAYwRdG90YWxfbmV3X29iamVjdHOUS/p1Lg==
 </properties>
 		<properties node_id="10" format="literal">{'savedWidgetGeometry': None}</properties>
@@ -1215,8 +1215,8 @@ Z2VfaF90b5RHAAAAAAAAAACMEG5ld19yYW5nZV92X2Zyb22URwAAAAAAAAAAjA5uZXdfcmFuZ2Vf
 dl90b5RHAAAAAAAAAACMDm51bWJlcl9vZl9iaW5zlE30AYwQbnVtYmVyX29mX2JpbnNfdpRN9AGM
 C3BvbHlfZGVncmVllEsEjARyYXlzlEsAjBZyZXBsYWNlX3Bvb3Jfc3RhdGlzdGljlEsAjBNzYXZl
 ZFdpZGdldEdlb21ldHJ5lIwDc2lwlIwOX3VucGlja2xlX3R5cGWUk5SMDFB5UXQ1LlF0Q29yZZSM
-ClFCeXRlQXJyYXmUQ0IB2dDLAAMAAP//+jYAAADa////XQAAA7H///o2AAAA9v///10AAAOxAAAA
-AQIAAAAHgP//+jYAAAD2////XQAAA7GUhZSHlFKUjA5zY2FsaW5nX2ZhY3RvcpRHP/AAAAAAAACM
+ClFCeXRlQXJyYXmUQ0IB2dDLAAMAAAAAAGAAAAAZAAAFcwAAAtwAAABgAAAANQAABXMAAALcAAAA
+AAAAAAAHgAAAAGAAAAA1AAAFcwAAAtyUhZSHlFKUjA5zY2FsaW5nX2ZhY3RvcpRHP/AAAAAAAACM
 DXNob3dfZml0X3Bsb3SUSwGMB3NpZ21hX3iURwAAAAAAAAAAjAdzaWdtYV95lEcAAAAAAAAAAIwF
 dGl0bGWUjANYLFqUjAl2aWV3X3R5cGWUSwGMDnhfY29sdW1uX2luZGV4lEsCjAd4X3JhbmdllEsB
 jAt4X3JhbmdlX21heJRHP9AAAAAAAACMC3hfcmFuZ2VfbWlulEe/0AAAAAAAAIwOeV9jb2x1bW5f

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheme version="2.0" title="SRW Sources" description="" working_directory="/Users/lrebuffi/Oasys" workspace_units="2">
+<scheme version="2.0" title="SRW Sources" description="" working_directory="/Users/lrebuffi/Desktop/Working-Directory/OASYS-SRW" workspace_units="2">
 	<nodes>
 		<node id="0" name="Bending Magnet" qualified_name="orangecontrib.srw.widgets.light_sources.ow_srw_bending_magnet.OWSRWBendingMagnet" project_name="OASYS1-SRW" version="" title="Bending Magnet" position="(148.0, 279.0)" />
 		<node id="1" name="Undulator" qualified_name="orangecontrib.srw.widgets.light_sources.ow_srw_undulator.OWSRWUndulator" project_name="OASYS1-SRW" version="" title="Undulator" position="(147.0, 73.0)" />
@@ -88,7 +88,7 @@ X3qUR8ADMzMzMzM0jBFudW1iZXJfb2ZfcGVyaW9kc5RHQGcAAAAAAACMDXBlcmlvZF9sZW5ndGiU
 Rz+ZmZmZmZmajAtyYW5nZV94X21heJRLMowLcmFuZ2VfeF9taW6USs7///+MC3JhbmdlX3lfbWF4
 lEsyjAtyYW5nZV95X21pbpRKzv///4wMcmluZ19jdXJyZW50lEc/yZmZmZmZmowTc2F2ZWRXaWRn
 ZXRHZW9tZXRyeZSMA3NpcJSMDl91bnBpY2tsZV90eXBllJOUjAxQeVF0NS5RdENvcmWUjApRQnl0
-ZUFycmF5lENCAdnQywADAAAAAABgAAAAGQAABYcAAALwAAAAYAAAADUAAAWHAAAC8AAAAAAAAAAA
+ZUFycmF5lENCAdnQywADAAAAAABgAAAAGQAABYcAAALwAAAAYAAAADUAAAWHAAAC8AAAAAACAAAA
 B4AAAABgAAAANQAABYcAAALwlIWUh5RSlIwsc3ltbWV0cnlfdnNfbG9uZ2l0dWRpbmFsX3Bvc2l0
 aW9uX2hvcml6b250YWyUSwCMKnN5bW1ldHJ5X3ZzX2xvbmdpdHVkaW5hbF9wb3NpdGlvbl92ZXJ0
 aWNhbJRLAYwWdHlwZV9vZl9pbml0aWFsaXphdGlvbpRLAIwSdHlwZV9vZl9wcm9wZXJ0aWVzlEsB
@@ -308,8 +308,8 @@ ciA9IHNvdXJjZS5nZXRfbWFnbmV0aWNfc3RydWN0dXJlKCkuZ2V0X1NSV0xNYWdGbGRDKCkKCnBh
 cnRUcmFqID0gY2FsY3VsYXRlX3RyYWplY3RvcnkoZWxlY3Ryb25fYmVhbSwgbWFnbmV0aWNfZmll
 bGRfY29udGFpbmVyKQoKcGxvdF90cmFqZWN0b3J5KHBhcnRUcmFqKQqUjAVmbGFnc5RLAIwIZmls
 ZW5hbWWUTnViYYwTc2F2ZWRXaWRnZXRHZW9tZXRyeZSMA3NpcJSMDl91bnBpY2tsZV90eXBllJOU
-jAxQeVF0NS5RdENvcmWUjApRQnl0ZUFycmF5lENCAdnQywADAAD///lmAAAA2v///9MAAAQR///5
-ZgAAAPb////TAAAEEQAAAAEAAAAAB4D///lmAAAA9v///9MAAAQRlIWUh5RSlIwNc3BsaXR0ZXJT
+jAxQeVF0NS5RdENvcmWUjApRQnl0ZUFycmF5lENCAdnQywADAAAAAAImAAAAqgAABUUAAAMdAAAC
+JgAAAMYAAAVFAAADHQAAAAAAAAAAB4AAAAImAAAAxgAABUUAAAMdlIWUh5RSlIwNc3BsaXR0ZXJT
 dGF0ZZSMfGInXHgwMFx4MDBceDAwXHhmZlx4MDBceDAwXHgwMFx4MDFceDAwXHgwMFx4MDBceDAy
 XHgwMFx4MDBceDAyXlx4MDBceDAwXHgwMFx4OThceDAxXHhmZlx4ZmZceGZmXHhmZlx4MDFceDAw
 XHgwMFx4MDBceDAyXHgwMCeUdS4=

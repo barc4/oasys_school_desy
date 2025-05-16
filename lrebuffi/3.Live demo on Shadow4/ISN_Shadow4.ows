@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheme version="2.0" title="ISN 25 KeV (Shadow 4 + Hybrid)" description="In Situ Nanoprobe Beamline" working_directory="/Users/lrebuffi/Library/CloudStorage/Box-Box/Luca_Documents/Documents/Scientific Production/Conferences/2025/OASYS-School-DESY/Lessons/oasys_school_desy/lrebuffi/3.Live demo on Shadow4" workspace_units="2">
+<scheme version="2.0" title="ISN 25 KeV (Shadow 4 + Hybrid)" description="In Situ Nanoprobe Beamline" working_directory="/Users/lrebuffi/Desktop/Working-Directory/Live-Demo-S4" workspace_units="2">
 	<nodes>
 		<node id="0" name="DABAM Height Profile" qualified_name="orangecontrib.syned.widgets.tools.ow_dabam_height_profile.OWdabam_height_profile" project_name="OASYS1-SYNED" version="" title="KBH" position="(733.0, 537.0)" />
 		<node id="1" name="Undulator Light Source" qualified_name="orangecontrib.syned.widgets.light_sources.ow_undulator_light_source.OWUndulatorLightSource" project_name="OASYS1-SYNED" version="" title="Undulator Light Source" position="(-252.0, 173.0)" />
@@ -19,7 +19,7 @@
 		<node id="15" name="Info" qualified_name="orangecontrib.shadow4.widgets.tools.ow_info.OWInfo" project_name="OASYS1-shadow4" version="" title="Info" position="(878.0, 157.0)" />
 		<node id="16" name="Generic Mirror" qualified_name="orangecontrib.shadow4.widgets.optics.ow_mirror.OWMirror" project_name="OASYS1-shadow4" version="" title="KBV" position="(653.0, 420.0)" />
 		<node id="17" name="Generic Mirror" qualified_name="orangecontrib.shadow4.widgets.optics.ow_mirror.OWMirror" project_name="OASYS1-shadow4" version="" title="KBH" position="(780.0, 340.0)" />
-		<node id="18" name="Plot XY" qualified_name="orangecontrib.shadow4.widgets.tools.ow_plot_xy.PlotXY" project_name="OASYS1-shadow4" version="" title="Plot XY" position="(923.0, 339.0)" />
+		<node id="18" name="Plot XY" qualified_name="orangecontrib.shadow4.widgets.tools.ow_plot_xy.PlotXY" project_name="OASYS1-shadow4" version="" title="Plot XY" position="(923.0, 338.0)" />
 		<node id="19" name="Generic Crystal" qualified_name="orangecontrib.shadow4.widgets.optics.ow_crystal.OWCrystal" project_name="OASYS1-shadow4" version="" title="DCM1" position="(153.0, 486.0)" />
 		<node id="20" name="Generic Crystal" qualified_name="orangecontrib.shadow4.widgets.optics.ow_crystal.OWCrystal" project_name="OASYS1-shadow4" version="" title="DCM2" position="(218.0, 428.0)" />
 		<node id="21" name="PreRefl" qualified_name="orangecontrib.shadow4.widgets.preprocessors.ow_prerefl.OWPrerefl" project_name="OASYS1-shadow4" version="" title="Pt" position="(-113.0, -39.0)" />
@@ -48,7 +48,7 @@
 		<node id="44" name="DABAM Height Profile" qualified_name="orangecontrib.syned.widgets.tools.ow_dabam_height_profile.OWdabam_height_profile" project_name="OASYS1-SYNED" version="" title="KBV" position="(576.0, 1259.0)" />
 		<node id="45" name="Generic Mirror" qualified_name="orangecontrib.shadow4.widgets.optics.ow_mirror.OWMirror" project_name="OASYS1-shadow4" version="" title="KBV" position="(653.0, 1149.0)" />
 		<node id="46" name="Generic Mirror" qualified_name="orangecontrib.shadow4.widgets.optics.ow_mirror.OWMirror" project_name="OASYS1-shadow4" version="" title="KBH" position="(780.0, 1069.0)" />
-		<node id="47" name="Plot XY" qualified_name="orangecontrib.shadow4.widgets.tools.ow_plot_xy.PlotXY" project_name="OASYS1-shadow4" version="" title="Plot XY" position="(963.0, 1065.0)" />
+		<node id="47" name="Plot XY" qualified_name="orangecontrib.shadow4.widgets.tools.ow_plot_xy.PlotXY" project_name="OASYS1-shadow4" version="" title="Plot XY" position="(962.0, 1065.0)" />
 		<node id="48" name="Hybrid Screen" qualified_name="orangecontrib.shadow4_advanced.widgets.tools.ow_hybrid_screen.HybridScreenNew" project_name="OASYS1-shadow4-advanced" version="" title="Hybrid Screen" position="(863.0, 1148.0)" />
 		<node id="49" name="shadow3-&gt;4 beam converter" qualified_name="orangecontrib.shadow4.widgets.compatibility.ow_shadow3_beam_to_shadow4_beam.OW_beam_converter_3_to_4" project_name="OASYS1-shadow4" version="" title="shadow3-&gt;4 beam converter" position="(-57.0, 475.0)" />
 	</nodes>
@@ -140,7 +140,7 @@ ZWRfeJRNUyKMDG5ld19sZW5ndGhfeJRHP8m6XjU/fO6MDG5ld19sZW5ndGhfeZRHP787ZFocrAiM
 GXBvd2VyX2xhd19leHBvbmVudF9iZXRhX3iUR0AIAAAAAAAAjA1yZW5vcm1hbGl6ZV94lEsAjA1y
 ZW5vcm1hbGl6ZV95lEsBjAVybXNfeJRHAAAAAAAAAACMBXJtc195lEc/3MzMzMzMzYwTc2F2ZWRX
 aWRnZXRHZW9tZXRyeZSMA3NpcJSMDl91bnBpY2tsZV90eXBllJOUjAxQeVF0NS5RdENvcmWUjApR
-Qnl0ZUFycmF5lENCAdnQywADAAAAAABgAAAAGQAABYcAAANoAAAAYAAAADUAAAWHAAADaAAAAAAA
+Qnl0ZUFycmF5lENCAdnQywADAAAAAABgAAAAGQAABYcAAANoAAAAYAAAADUAAAWHAAADaAAAAAAC
 AAAAB4AAAABgAAAANQAABYcAAANolIWUh5RSlIwOc2VydmVyX2FkZHJlc3OUjCpodHRwOi8vZnRw
 LmVzcmYuZXUvcHViL3NjaXNvZnQvZGFiYW0vZGF0YS+UjAVzaGFwZZRLAIwQc2xvcGVfZXJyb3Jf
 ZnJvbZRHAAAAAAAAAACMDnNsb3BlX2Vycm9yX3RvlEc/+AAAAAAAAIwGc3RlcF94lEc/UGJN0vGp
