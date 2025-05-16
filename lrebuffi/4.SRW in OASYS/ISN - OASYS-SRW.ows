@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheme version="2.0" title="ISN - OASYS-SRW" description="" working_directory="/Users/lrebuffi/Oasys" workspace_units="2">
+<scheme version="2.0" title="ISN - OASYS-SRW" description="" working_directory="/Users/lrebuffi/Desktop/Working-Directory/OASYS-SRW" workspace_units="2">
 	<nodes>
-		<node id="0" name="Undulator" qualified_name="orangecontrib.srw.widgets.light_sources.ow_srw_undulator.OWSRWUndulator" project_name="OASYS1-SRW" version="" title="U25" position="(65.0, 142.0)" />
-		<node id="1" name="Plane Mirror" qualified_name="orangecontrib.srw.widgets.optical_elements.ow_srw_plane_mirror.OWSRWPlaneMirror" project_name="OASYS1-SRW" version="" title="M1_V" position="(170.0, 145.0)" />
+		<node id="0" name="Undulator" qualified_name="orangecontrib.srw.widgets.light_sources.ow_srw_undulator.OWSRWUndulator" project_name="OASYS1-SRW" version="" title="U25" position="(84.0, 145.0)" />
+		<node id="1" name="Plane Mirror" qualified_name="orangecontrib.srw.widgets.optical_elements.ow_srw_plane_mirror.OWSRWPlaneMirror" project_name="OASYS1-SRW" version="" title="M1_V" position="(182.0, 145.0)" />
 		<node id="2" name="Elliptical Mirror" qualified_name="orangecontrib.srw.widgets.optical_elements.ow_srw_elliptical_mirror.OWSRWEllipticalMirror" project_name="OASYS1-SRW" version="" title="M2_V" position="(271.0, 146.0)" />
-		<node id="3" name="Elliptical Mirror" qualified_name="orangecontrib.srw.widgets.optical_elements.ow_srw_elliptical_mirror.OWSRWEllipticalMirror" project_name="OASYS1-SRW" version="" title="M3_H" position="(399.0, 138.0)" />
+		<node id="3" name="Elliptical Mirror" qualified_name="orangecontrib.srw.widgets.optical_elements.ow_srw_elliptical_mirror.OWSRWEllipticalMirror" project_name="OASYS1-SRW" version="" title="M3_H" position="(399.0, 132.0)" />
 		<node id="4" name="Screen" qualified_name="orangecontrib.srw.widgets.optical_elements.ow_srw_screen.OWSRWScreen" project_name="OASYS1-SRW" version="" title="Before BDA_V" position="(533.0, 129.0)" />
 		<node id="5" name="Aperture" qualified_name="orangecontrib.srw.widgets.optical_elements.ow_srw_aperture.OWSRWAperture" project_name="OASYS1-SRW" version="" title="BDA_V" position="(648.0, 129.0)" />
 		<node id="6" name="Screen" qualified_name="orangecontrib.srw.widgets.optical_elements.ow_srw_screen.OWSRWScreen" project_name="OASYS1-SRW" version="" title="Before BDA_H" position="(764.0, 121.0)" />
@@ -18,16 +18,16 @@
 		<node id="14" name="Screen" qualified_name="orangecontrib.srw.widgets.optical_elements.ow_srw_screen.OWSRWScreen" project_name="OASYS1-SRW" version="" title="After BDA_V" position="(746.0, 286.0)" />
 		<node id="15" name="Screen" qualified_name="orangecontrib.srw.widgets.optical_elements.ow_srw_screen.OWSRWScreen" project_name="OASYS1-SRW" version="" title="After M3" position="(498.0, 298.0)" />
 		<node id="16" name="Screen" qualified_name="orangecontrib.srw.widgets.optical_elements.ow_srw_screen.OWSRWScreen" project_name="OASYS1-SRW" version="" title="After M2" position="(364.0, 305.0)" />
-		<node id="17" name="Beamline Renderer" qualified_name="orangecontrib.srw.widgets.tools.ow_beamline_renderer.SRWBeamlineRenderer" project_name="OASYS1-SRW" version="" title="Beamline Renderer" position="(1616.0, 181.0)" />
-		<node id="18" name="Info" qualified_name="orangecontrib.srw.widgets.tools.ow_srw_info.OWSRWInfo" project_name="OASYS1-SRW" version="" title="Info" position="(1625.0, 54.0)" />
+		<node id="17" name="Beamline Renderer" qualified_name="orangecontrib.srw.widgets.tools.ow_beamline_renderer.SRWBeamlineRenderer" project_name="OASYS1-SRW" version="" title="Beamline Renderer" position="(1596.0, 177.0)" />
+		<node id="18" name="Info" qualified_name="orangecontrib.srw.widgets.tools.ow_srw_info.OWSRWInfo" project_name="OASYS1-SRW" version="" title="Info" position="(1589.0, 75.0)" />
 		<node id="19" name="Elliptical Mirror" qualified_name="orangecontrib.srw.widgets.optical_elements.ow_srw_elliptical_mirror.OWSRWEllipticalMirror" project_name="OASYS1-SRW" version="" title="KBV" position="(1129.0, 401.0)" />
 		<node id="20" name="Elliptical Mirror" qualified_name="orangecontrib.srw.widgets.optical_elements.ow_srw_elliptical_mirror.OWSRWEllipticalMirror" project_name="OASYS1-SRW" version="" title="KBH" position="(1252.0, 409.0)" />
 		<node id="21" name="Screen" qualified_name="orangecontrib.srw.widgets.optical_elements.ow_srw_screen.OWSRWScreen" project_name="OASYS1-SRW" version="" title="At Sample" position="(1379.0, 409.0)" />
 		<node id="22" name="Height Profile Simulator" qualified_name="orangecontrib.srw.widgets.tools.ow_height_profile_simulator.OWheight_profile_simulator" project_name="OASYS1-SRW" version="" title="KBV" position="(1082.0, 536.0)" />
 		<node id="23" name="Height Profile Simulator" qualified_name="orangecontrib.srw.widgets.tools.ow_height_profile_simulator.OWheight_profile_simulator" project_name="OASYS1-SRW" version="" title="KBH" position="(1191.0, 541.0)" />
 		<node id="24" name="SRW Python Script (ME)" qualified_name="orangecontrib.srw.widgets.native.ow_srw_python_script_me.SRWPythonScriptME" project_name="OASYS1-SRW" version="" title="SRW Python Script (ME)" position="(1626.0, 341.0)" />
-		<node id="25" name="SRW Python Script (SE)" qualified_name="orangecontrib.srw.widgets.native.ow_srw_python_script_se.SRWPythonScriptSE" project_name="OASYS1-SRW" version="" title="SRW Python Script (SE)" position="(1629.0, 462.0)" />
-		<node id="26" name="Python Script" qualified_name="oasys.widgets.tools.ow_python_script.OWPythonScript" project_name="OASYS1" version="" title="Python Script" position="(940.0, 561.0)" />
+		<node id="25" name="SRW Python Script (SE)" qualified_name="orangecontrib.srw.widgets.native.ow_srw_python_script_se.SRWPythonScriptSE" project_name="OASYS1-SRW" version="" title="SRW Python Script (SE)" position="(1625.0, 448.0)" />
+		<node id="26" name="Python Script" qualified_name="oasys.widgets.tools.ow_python_script.OWPythonScript" project_name="OASYS1" version="" title="Focal Distances" position="(940.0, 561.0)" />
 		<node id="27" name="Screen" qualified_name="orangecontrib.wofry.widgets.beamline_elements.ow_screen.OWWOScreen" project_name="OASYS1-WOFRY" version="" title="Screen" position="(1544.0, 675.0)" />
 		<node id="28" name="Ideal Lens" qualified_name="orangecontrib.wofry.widgets.beamline_elements.ow_ideal_lens.OWWOIdealLens" project_name="OASYS1-WOFRY" version="" title="Ideal Lens" position="(1426.0, 675.0)" />
 		<node id="29" name="Screen" qualified_name="orangecontrib.wofry.widgets.beamline_elements.ow_screen.OWWOScreen" project_name="OASYS1-WOFRY" version="" title="Screen" position="(964.0, 675.0)" />
@@ -37,6 +37,9 @@
 		<node id="33" name="Slit" qualified_name="orangecontrib.wofry.widgets.beamline_elements.ow_slits.OWWOSlit" project_name="OASYS1-WOFRY" version="" title="Slit" position="(1335.0, 675.0)" />
 		<node id="34" name="Screen" qualified_name="orangecontrib.srw.widgets.optical_elements.ow_srw_screen.OWSRWScreen" project_name="OASYS1-SRW" version="" title="After KBH" position="(1231.0, 295.0)" />
 		<node id="35" name="To Wofry Wavefront 2D" qualified_name="orangecontrib.srw.widgets.tools.ow_srw_wavefront_to_wofry.OWToWofryWavefront2d" project_name="OASYS1-SRW" version="" title="To Wofry Wavefront 2D" position="(836.0, 673.0)" />
+		<node id="36" name="SRW Reflectivity Generator" qualified_name="orangecontrib.srw.widgets.tools.ow_srw_reflectivity_generator.OWReflectivityGenerator" project_name="OASYS1-SRW" version="" title="SRW Reflectivity Generator" position="(316.0, 18.0)" />
+		<node id="37" name="F1F2" qualified_name="orangecontrib.xoppy.widgets.optics.xf1f2.OWxf1f2" project_name="OASYS1-XOPPY" version="" title="Pt (s)" position="(196.0, -53.0)" />
+		<node id="38" name="F1F2" qualified_name="orangecontrib.xoppy.widgets.optics.xf1f2.OWxf1f2" project_name="OASYS1-XOPPY" version="" title="Pt (p)" position="(189.0, 51.0)" />
 	</nodes>
 	<links>
 		<link id="0" source_node_id="2" sink_node_id="16" source_channel="SRWData" sink_channel="SRWData" enabled="true" />
@@ -51,7 +54,7 @@
 		<link id="9" source_node_id="6" sink_node_id="7" source_channel="SRWData" sink_channel="SRWData" enabled="true" />
 		<link id="10" source_node_id="7" sink_node_id="13" source_channel="SRWData" sink_channel="SRWData" enabled="true" />
 		<link id="11" source_node_id="7" sink_node_id="9" source_channel="SRWData" sink_channel="SRWData" enabled="true" />
-		<link id="12" source_node_id="9" sink_node_id="8" source_channel="SRWData" sink_channel="SRWData" enabled="false" />
+		<link id="12" source_node_id="9" sink_node_id="8" source_channel="SRWData" sink_channel="SRWData" enabled="true" />
 		<link id="13" source_node_id="8" sink_node_id="10" source_channel="SRWData" sink_channel="SRWData" enabled="true" />
 		<link id="14" source_node_id="10" sink_node_id="12" source_channel="SRWData" sink_channel="SRWData" enabled="true" />
 		<link id="15" source_node_id="10" sink_node_id="11" source_channel="SRWData" sink_channel="SRWData" enabled="true" />
@@ -59,7 +62,7 @@
 		<link id="17" source_node_id="20" sink_node_id="21" source_channel="SRWData" sink_channel="SRWData" enabled="true" />
 		<link id="18" source_node_id="22" sink_node_id="19" source_channel="PreProcessor_Data" sink_channel="PreProcessor Data #1" enabled="true" />
 		<link id="19" source_node_id="23" sink_node_id="20" source_channel="PreProcessor_Data" sink_channel="PreProcessor Data #1" enabled="true" />
-		<link id="20" source_node_id="9" sink_node_id="19" source_channel="SRWData" sink_channel="SRWData" enabled="false" />
+		<link id="20" source_node_id="9" sink_node_id="19" source_channel="SRWData" sink_channel="SRWData" enabled="true" />
 		<link id="21" source_node_id="29" sink_node_id="32" source_channel="WofryData" sink_channel="WofryData" enabled="true" />
 		<link id="22" source_node_id="32" sink_node_id="30" source_channel="WofryData" sink_channel="WofryData" enabled="true" />
 		<link id="23" source_node_id="31" sink_node_id="33" source_channel="WofryData" sink_channel="WofryData" enabled="true" />
@@ -68,7 +71,10 @@
 		<link id="26" source_node_id="33" sink_node_id="28" source_channel="WofryData" sink_channel="WofryData" enabled="true" />
 		<link id="27" source_node_id="28" sink_node_id="27" source_channel="WofryData" sink_channel="WofryData" enabled="true" />
 		<link id="28" source_node_id="35" sink_node_id="29" source_channel="GenericWavefront2D" sink_channel="GenericWavefront2D" enabled="true" />
-		<link id="29" source_node_id="9" sink_node_id="35" source_channel="SRWData" sink_channel="SRWData" enabled="false" />
+		<link id="29" source_node_id="9" sink_node_id="35" source_channel="SRWData" sink_channel="SRWData" enabled="true" />
+		<link id="30" source_node_id="37" sink_node_id="36" source_channel="xoppy_data" sink_channel="Reflectivity (σ)" enabled="true" />
+		<link id="31" source_node_id="38" sink_node_id="36" source_channel="xoppy_data" sink_channel="Reflectivity (π)" enabled="true" />
+		<link id="32" source_node_id="36" sink_node_id="3" source_channel="Reflectivity Data" sink_channel="PreProcessor Data #1" enabled="true" />
 	</links>
 	<annotations />
 	<thumbnail />
@@ -94,7 +100,7 @@ ZW5ndGiURz+ZmZmZmZmajAtyYW5nZV94X21heJRLMowLcmFuZ2VfeF9taW6USs7///+MC3Jhbmdl
 X3lfbWF4lEsyjAtyYW5nZV95X21pbpRKzv///4wMcmluZ19jdXJyZW50lEc/yZmZmZmZmowTc2F2
 ZWRXaWRnZXRHZW9tZXRyeZSMA3NpcJSMDl91bnBpY2tsZV90eXBllJOUjAxQeVF0NS5RdENvcmWU
 jApRQnl0ZUFycmF5lENCAdnQywADAAAAAAAzAAAARwAABVoAAAMeAAAAMwAAAGMAAAVaAAADHgAA
-AAACAAAABpAAAAAzAAAAYwAABVoAAAMelIWUh5RSlIwsc3ltbWV0cnlfdnNfbG9uZ2l0dWRpbmFs
+AAACAAAAB4AAAAAzAAAAYwAABVoAAAMelIWUh5RSlIwsc3ltbWV0cnlfdnNfbG9uZ2l0dWRpbmFs
 X3Bvc2l0aW9uX2hvcml6b250YWyUSwCMKnN5bW1ldHJ5X3ZzX2xvbmdpdHVkaW5hbF9wb3NpdGlv
 bl92ZXJ0aWNhbJRLAYwWdHlwZV9vZl9pbml0aWFsaXphdGlvbpRLAIwSdHlwZV9vZl9wcm9wZXJ0
 aWVzlEsBjAx1bndyYXBfcGhhc2WUSwCMCXVzZV9yYW5nZZRLAIwOdmVydGljYWxfYWxwaGGURwAA
@@ -282,7 +288,7 @@ AAAAAACMDXN1cmZhY2Vfc2hhcGWUSwCMD3RhbmdlbnRpYWxfc2l6ZZRHP9mZmZmZmZqMDHVud3Jh
 cF9waGFzZZRLAIwJdXNlX3JhbmdllEsAjCJ2ZXJ0aWNhbF9wb3NpdGlvbl9vZl9taXJyb3JfY2Vu
 dGVylEcAAAAAAAAAAIwJdmlld190eXBllEsBjAx3ZWlnaHRfcGhhc2WUSwB1Lg==
 </properties>
-		<properties node_id="3" format="pickle">gASVbxIAAAAAAAB9lCiME2FkZF9hY2NlcHRhbmNlX3NsaXSUSwCMD2FuZ2xlX2F6aW11dGhhbJRH
+		<properties node_id="3" format="pickle">gASVZRIAAAAAAAB9lCiME2FkZF9hY2NlcHRhbmNlX3NsaXSUSwCMD2FuZ2xlX2F6aW11dGhhbJRH
 QFaAAAAAAACMDGFuZ2xlX3JhZGlhbJSMFW51bXB5LmNvcmUubXVsdGlhcnJheZSMBnNjYWxhcpST
 lIwFbnVtcHmUjAVkdHlwZZSTlIwCZjiUiYiHlFKUKEsDjAE8lE5OTkr/////Sv////9LAHSUYkMI
 C/o0KtV2VkCUhpRSlIwRYW5nbGVfcmFkaWFsX21yYWSUaAZoDEMIAAAAAAAABECUhpRSlIwqZGlz
@@ -327,7 +333,7 @@ b3Jlc2l6aW5nlEc/8AAAAAAAAIwtZHJpZnRfdHlwZV9vZl93YXZlZnJvbnRfc2hpZnRfYmVmb3Jl
 X3Jlc2l6aW5nlEsAjDRkcmlmdF92ZXJ0aWNhbF9yYW5nZV9tb2RpZmljYXRpb25fZmFjdG9yX2F0
 X3Jlc2l6aW5nlEc/8AAAAAAAAIw5ZHJpZnRfdmVydGljYWxfcmVzb2x1dGlvbl9tb2RpZmljYXRp
 b25fZmFjdG9yX2F0X3Jlc2l6aW5nlEc/8AAAAAAAAIwQaGFzX2Rpc3BsYWNlbWVudJRLAIwSaGFz
-X2hlaWdodF9wcm9maWxllEsAjBBoYXNfcmVmbGVjdGl2aXR5lEsAjCBoZWlnaHRfYW1wbGlmaWNh
+X2hlaWdodF9wcm9maWxllEsAjBBoYXNfcmVmbGVjdGl2aXR5lEsCjCBoZWlnaHRfYW1wbGlmaWNh
 dGlvbl9jb2VmZmljaWVudJRHP/AAAAAAAACMGGhlaWdodF9wcm9maWxlX2RhdGFfZmlsZZSMCm1p
 cnJvci5kYXSUjCJoZWlnaHRfcHJvZmlsZV9kYXRhX2ZpbGVfZGltZW5zaW9ulEsAjCRob3Jpem9u
 dGFsX3Bvc2l0aW9uX29mX21pcnJvcl9jZW50ZXKURwAAAAAAAAAAjBhpbnZlcnRfdGFuZ2VudF9j
@@ -351,20 +357,20 @@ b25fZmFjdG9yX2F0X3Jlc2l6aW5nlEc/8AAAAAAAAIw2b2VfdmVydGljYWxfcmVzb2x1dGlvbl9t
 b2RpZmljYXRpb25fZmFjdG9yX2F0X3Jlc2l6aW5nlEc/8AAAAAAAAIwVb3JpZW50YXRpb25fYXpp
 bXV0aGFslEsCjAFwlEdAFAAAAAAAAIwBcZRHAAAAAAAAAACMC3JhbmdlX3hfbWF4lEsyjAtyYW5n
 ZV94X21pbpRKzv///4wLcmFuZ2VfeV9tYXiUSzKMC3JhbmdlX3lfbWlulErO////jBZyZWZsZWN0
-aXZpdHlfYW5nbGVfZW5klEc/dHrhR64Ue4wdcmVmbGVjdGl2aXR5X2FuZ2xlX3NjYWxlX3R5cGWU
-SwCMGHJlZmxlY3Rpdml0eV9hbmdsZV9zdGFydJRHP1BiTdLxqfyMGnJlZmxlY3Rpdml0eV9hbmds
-ZXNfbnVtYmVylEtkjB5yZWZsZWN0aXZpdHlfY29tcG9uZW50c19udW1iZXKUSwCMFnJlZmxlY3Rp
-dml0eV9kYXRhX2ZpbGWUjBByZWZsZWN0aXZpdHkuZGF0lIwccmVmbGVjdGl2aXR5X2VuZXJnaWVz
-X251bWJlcpRLZIwXcmVmbGVjdGl2aXR5X2VuZXJneV9lbmSUR0DDiAAAAAAAjB5yZWZsZWN0aXZp
-dHlfZW5lcmd5X3NjYWxlX3R5cGWUSwCMGXJlZmxlY3Rpdml0eV9lbmVyZ3lfc3RhcnSUR0BZAAAA
-AAAAjBJyZWZsZWN0aXZpdHlfdmFsdWWURz/uZmZmZmZmjApyb3RhdGlvbl94lEcAAAAAAAAAAIwK
-cm90YXRpb25feZRHAAAAAAAAAACMDXNhZ2l0dGFsX3NpemWURz+EeuFHrhR7jBNzYXZlZFdpZGdl
-dEdlb21ldHJ5lIwDc2lwlIwOX3VucGlja2xlX3R5cGWUk5SMDFB5UXQ1LlF0Q29yZZSMClFCeXRl
-QXJyYXmUQ0IB2dDLAAMAAP/////////3AAAFKAAAAtkAAAFsAAAAzwAABpMAAAOKAAAAAAIAAAAH
-gAAAAAAAAAAdAAAFJwAAAtiUhZSHlFKUjAVzaGFwZZRLAIwHc2hpZnRfeJRHAAAAAAAAAACMB3No
-aWZ0X3mURwAAAAAAAAAAjA1zdXJmYWNlX3NoYXBllEsAjA90YW5nZW50aWFsX3NpemWURz/ZmZmZ
-mZmajAx1bndyYXBfcGhhc2WUSwCMCXVzZV9yYW5nZZRLAIwidmVydGljYWxfcG9zaXRpb25fb2Zf
-bWlycm9yX2NlbnRlcpRHAAAAAAAAAACMCXZpZXdfdHlwZZRLAYwMd2VpZ2h0X3BoYXNllEsAdS4=
+aXZpdHlfYW5nbGVfZW5klEc/ZUyYXwb2lIwdcmVmbGVjdGl2aXR5X2FuZ2xlX3NjYWxlX3R5cGWU
+SwCMGHJlZmxlY3Rpdml0eV9hbmdsZV9zdGFydJRHP2OpKjBVMmGMGnJlZmxlY3Rpdml0eV9hbmds
+ZXNfbnVtYmVylEvIjB5yZWZsZWN0aXZpdHlfY29tcG9uZW50c19udW1iZXKUSwGMFnJlZmxlY3Rp
+dml0eV9kYXRhX2ZpbGWUjAZQdC5kYXSUjBxyZWZsZWN0aXZpdHlfZW5lcmdpZXNfbnVtYmVylEsB
+jBdyZWZsZWN0aXZpdHlfZW5lcmd5X2VuZJRHQNhqAAAAAACMHnJlZmxlY3Rpdml0eV9lbmVyZ3lf
+c2NhbGVfdHlwZZRLAIwZcmVmbGVjdGl2aXR5X2VuZXJneV9zdGFydJRHQNhqAAAAAACMEnJlZmxl
+Y3Rpdml0eV92YWx1ZZRHP+5mZmZmZmaMCnJvdGF0aW9uX3iURwAAAAAAAAAAjApyb3RhdGlvbl95
+lEcAAAAAAAAAAIwNc2FnaXR0YWxfc2l6ZZRHP4R64UeuFHuME3NhdmVkV2lkZ2V0R2VvbWV0cnmU
+jANzaXCUjA5fdW5waWNrbGVfdHlwZZSTlIwMUHlRdDUuUXRDb3JllIwKUUJ5dGVBcnJheZRDQgHZ
+0MsAAwAA//////////cAAAUoAAAC2QAAAWwAAADPAAAGkwAAA4oAAAAAAgAAAAeAAAAAAAAAAB0A
+AAUnAAAC2JSFlIeUUpSMBXNoYXBllEsAjAdzaGlmdF94lEcAAAAAAAAAAIwHc2hpZnRfeZRHAAAA
+AAAAAACMDXN1cmZhY2Vfc2hhcGWUSwCMD3RhbmdlbnRpYWxfc2l6ZZRHP9mZmZmZmZqMDHVud3Jh
+cF9waGFzZZRLAIwJdXNlX3JhbmdllEsAjCJ2ZXJ0aWNhbF9wb3NpdGlvbl9vZl9taXJyb3JfY2Vu
+dGVylEcAAAAAAAAAAIwJdmlld190eXBllEsBjAx3ZWlnaHRfcGhhc2WUSwB1Lg==
 </properties>
 		<properties node_id="4" format="pickle">gASV8g4AAAAAAAB9lCiMD2FuZ2xlX2F6aW11dGhhbJRHAAAAAAAAAACMDGFuZ2xlX3JhZGlhbJRH
 AAAAAAAAAACMEWFuZ2xlX3JhZGlhbF9tcmFklEcAAAAAAAAAAIw3ZHJpZnRfYWZ0ZXJfb3JpZW50
@@ -499,7 +505,7 @@ AIwBcJRHAAAAAAAAAACMAXGURwAAAAAAAAAAjAZyYWRpdXOURwAAAAAAAAAAjAtyYW5nZV94X21h
 eJRLMowLcmFuZ2VfeF9taW6USs7///+MC3JhbmdlX3lfbWF4lEsyjAtyYW5nZV95X21pbpRKzv//
 /4wKcm90YXRpb25feJRHAAAAAAAAAACMCnJvdGF0aW9uX3mURwAAAAAAAAAAjBNzYXZlZFdpZGdl
 dEdlb21ldHJ5lIwDc2lwlIwOX3VucGlja2xlX3R5cGWUk5SMDFB5UXQ1LlF0Q29yZZSMClFCeXRl
-QXJyYXmUQ0IB2dDLAAMAAAAAAGUAAAAPAAAFjgAAAvEAAABmAAAANQAABY0AAALwAAAAAAAAAAAH
+QXJyYXmUQ0IB2dDLAAMAAAAAAGYAAAAZAAAFjQAAAvAAAABmAAAANQAABY0AAALwAAAAAAIAAAAH
 gAAAAGYAAAA1AAAFjQAAAvCUhZSHlFKUjAVzaGFwZZRLAIwHc2hpZnRfeJRHAAAAAAAAAACMB3No
 aWZ0X3mURwAAAAAAAAAAjA1zdXJmYWNlX3NoYXBllEsAjAx1bndyYXBfcGhhc2WUSwCMCXVzZV9y
 YW5nZZRLAIwOdmVydGljYWxfc2hpZnSURwAAAAAAAAAAjAl2aWV3X3R5cGWUSwGMDHdlaWdodF9w
@@ -1533,7 +1539,7 @@ AIwLcmFuZ2VfeF9tYXiURz+5mZmZmZmajAtyYW5nZV94X21pbpRHv7mZmZmZmZqMC3JhbmdlX3lf
 bWF4lEc/uZmZmZmZmowLcmFuZ2VfeV9taW6UR7+5mZmZmZmajApyb3RhdGlvbl94lEcAAAAAAAAA
 AIwKcm90YXRpb25feZRHAAAAAAAAAACME3NhdmVkV2lkZ2V0R2VvbWV0cnmUjANzaXCUjA5fdW5w
 aWNrbGVfdHlwZZSTlIwMUHlRdDUuUXRDb3JllIwKUUJ5dGVBcnJheZRDQgHZ0MsAAwAAAAABaAAA
-AG4AAAaPAAADRQAAAWgAAACKAAAGjwAAA0UAAAAAAgAAAAaQAAABaAAAAIoAAAaPAAADRZSFlIeU
+AG4AAAaPAAADRQAAAWgAAACKAAAGjwAAA0UAAAAAAgAAAAeAAAABaAAAAIoAAAaPAAADRZSFlIeU
 UpSMBXNoYXBllEsAjAdzaGlmdF94lEcAAAAAAAAAAIwHc2hpZnRfeZRHAAAAAAAAAACMDXN1cmZh
 Y2Vfc2hhcGWUSwCMDHVud3JhcF9waGFzZZRLAIwJdXNlX3JhbmdllEsBjAl2aWV3X3R5cGWUSwGM
 DHdlaWdodF9waGFzZZRLAHUu
@@ -1575,7 +1581,7 @@ AAAAAIwZcG93ZXJfbGF3X2V4cG9uZW50X2JldGFfeZRHP/AAAAAAAACMDXJlbm9ybWFsaXplX3iU
 SwCMDXJlbm9ybWFsaXplX3mUSwCMBXJtc194lEc/uZmZmZmZmowFcm1zX3mURz/gAAAAAAAAjBNz
 YXZlZFdpZGdldEdlb21ldHJ5lIwDc2lwlIwOX3VucGlja2xlX3R5cGWUk5SMDFB5UXQ1LlF0Q29y
 ZZSMClFCeXRlQXJyYXmUQ0IB2dDLAAMAAAAAAGAAAAAZAAAFhwAAA1QAAABgAAAANQAABYcAAANU
-AAAAAAAAAAAHgAAAAGAAAAA1AAAFhwAAA1SUhZSHlFKUjAZzdGVwX3iURz9QYk3S8an8jAZzdGVw
+AAAAAAIAAAAHgAAAAGAAAAA1AAAFhwAAA1SUhZSHlFKUjAZzdGVwX3iURz9QYk3S8an8jAZzdGVw
 X3mURz9QYk3S8an8dS4=
 </properties>
 		<properties node_id="24" format="pickle">gASVdAEAAAAAAAB9lCiMBV9jaGFylEsAjBBpc19hdXRvbWF0aWNfcnVulIiMCm5NYWNyb0VsZWOU
@@ -1598,7 +1604,7 @@ MjU1CgpmdiA9ICgxL3B2ICsgMS9xdikqKi0xCmZoID0gKDEvcGggKyAxL3FoKSoqLTEKCnByaW50
 KCJGViIsIGZ2LCAiRkgiLCBmaCmUjAVmbGFnc5RLAIwIZmlsZW5hbWWUTnViYYwTc2F2ZWRXaWRn
 ZXRHZW9tZXRyeZSMA3NpcJSMDl91bnBpY2tsZV90eXBllJOUjAxQeVF0NS5RdENvcmWUjApRQnl0
 ZUFycmF5lENCAdnQywADAAAAAAGuAAAAxQAABM0AAAM4AAABrgAAAOEAAATNAAADOAAAAAAAAAAA
-BpAAAAGuAAAA4QAABM0AAAM4lIWUh5RSlIwNc3BsaXR0ZXJTdGF0ZZROdS4=
+B4AAAAGuAAAA4QAABM0AAAM4lIWUh5RSlIwNc3BsaXR0ZXJTdGF0ZZROdS4=
 </properties>
 		<properties node_id="27" format="pickle">gASVGQIAAAAAAAB9lCiMD2FuZ2xlX2F6aW11dGhhbJRHAAAAAAAAAACMDGFuZ2xlX3JhZGlhbJRH
 AAAAAAAAAACME2NhbGN1bGF0ZV9ncmlkX29ubHmUSwGMBmhlaWdodJRHAAAAAAAAAACMEGhvcml6
@@ -1746,5 +1752,32 @@ RwAAAAAAAAAAjAdzaGlmdF95lEcAAAAAAAAAAIwNc3VyZmFjZV9zaGFwZZRLAIwMdW53cmFwX3Bo
 YXNllEsAjAl1c2VfcmFuZ2WUSwCMCXZpZXdfdHlwZZRLAYwMd2VpZ2h0X3BoYXNllEsAdS4=
 </properties>
 		<properties node_id="35" format="literal">{'savedWidgetGeometry': None}</properties>
+		<properties node_id="36" format="pickle">gASVIwEAAAAAAAB9lCiMEmFuZ2xlX3NpbmdsZV92YWx1ZZRHAAAAAAAAAACMDmRhdGFfZmlsZV9u
+YW1llIwGUHQuZGF0lIwJZGF0YV9wYXRolIwAlIwTZW5lcmd5X3NpbmdsZV92YWx1ZZRHQNhqAAAA
+AACMCWZpbGVfbmFtZZRoBYwQaXNfYXV0b21hdGljX3J1bpSIjBNzYXZlZFdpZGdldEdlb21ldHJ5
+lIwDc2lwlIwOX3VucGlja2xlX3R5cGWUk5SMDFB5UXQ1LlF0Q29yZZSMClFCeXRlQXJyYXmUQ0IB
+2dDLAAMAAAAAAGAAAAAZAAAFcwAAAtwAAABgAAAANQAABXMAAALcAAAAAAAAAAAHgAAAAGAAAAA1
+AAAFcwAAAtyUhZSHlFKUdS4=
+</properties>
+		<properties node_id="37" format="pickle">gASV4AEAAAAAAAB9lCiMCUNBTENVTEFURZRLB4wVREFCQVhfRjFGMl9GSUxFX0lOREVYlEsAjAdE
+RU5TSVRZlIwBP5SMCkRFU0NSSVBUT1KUjAJQdJSMDERVTVBfVE9fRklMRZRLAIwJRklMRV9OQU1F
+lIwIZjFmMi5kYXSUjARHUklElEsCjAdHUklERU5ElEdA2GoAAAAAAIwFR1JJRE6US2SMCUdSSURT
+VEFSVJRHQNhqAAAAAACMHk1BVEVSSUFMX0NPTlNUQU5UX0xJQlJBUllfRkxBR5RLAIwITUFUX0ZM
+QUeUSwCMCU5JU1RfTkFNRZRLsYwFUk9VR0iURwAAAAAAAAAAjAZUSEVUQTGUR0ADMzMzMzMzjAZU
+SEVUQTKUR0AEzMzMzMzNjAlUSEVUQUdSSUSUSwGMBlRIRVRBTpRLyIwTc2F2ZWRXaWRnZXRHZW9t
+ZXRyeZSMA3NpcJSMDl91bnBpY2tsZV90eXBllJOUjAxQeVF0NS5RdENvcmWUjApRQnl0ZUFycmF5
+lENCAdnQywADAAAAAAIuAAAAnwAAB0EAAANiAAACLgAAALsAAAdBAAADYgAAAAAAAAAAB4AAAAIu
+AAAAuwAAB0EAAANilIWUh5RSlIwJdmlld190eXBllEsBdS4=
+</properties>
+		<properties node_id="38" format="pickle">gASV4AEAAAAAAAB9lCiMCUNBTENVTEFURZRLCIwVREFCQVhfRjFGMl9GSUxFX0lOREVYlEsAjAdE
+RU5TSVRZlIwBP5SMCkRFU0NSSVBUT1KUjAJQdJSMDERVTVBfVE9fRklMRZRLAIwJRklMRV9OQU1F
+lIwIZjFmMi5kYXSUjARHUklElEsCjAdHUklERU5ElEdA2GoAAAAAAIwFR1JJRE6US2SMCUdSSURT
+VEFSVJRHQNhqAAAAAACMHk1BVEVSSUFMX0NPTlNUQU5UX0xJQlJBUllfRkxBR5RLAIwITUFUX0ZM
+QUeUSwCMCU5JU1RfTkFNRZRLsYwFUk9VR0iURwAAAAAAAAAAjAZUSEVUQTGUR0ADMzMzMzMzjAZU
+SEVUQTKUR0AEzMzMzMzNjAlUSEVUQUdSSUSUSwGMBlRIRVRBTpRLyIwTc2F2ZWRXaWRnZXRHZW9t
+ZXRyeZSMA3NpcJSMDl91bnBpY2tsZV90eXBllJOUjAxQeVF0NS5RdENvcmWUjApRQnl0ZUFycmF5
+lENCAdnQywADAAAAAAIuAAAAnwAAB0EAAANiAAACLgAAALsAAAdBAAADYgAAAAAAAAAAB4AAAAIu
+AAAAuwAAB0EAAANilIWUh5RSlIwJdmlld190eXBllEsBdS4=
+</properties>
 	</node_properties>
 </scheme>
