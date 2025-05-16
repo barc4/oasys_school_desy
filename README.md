@@ -32,7 +32,7 @@ Through a combination of lectures and practical sessions, attendees will gain ex
 INSTRUCTORS
 -----------
 
-M Sanchez del Rio (ESRF), Luca Rebuffi (APS), Xianbo Shi (APS), Rafael Celestre (Soleil), ...
+M Sanchez del Rio (ESRF), Luca Rebuffi (APS), Xianbo Shi (APS), Rafael Celestre (Soleil), Frank Seiboth (DESY), Ruslan Khubbutdinov (DESY)
 
 
 
