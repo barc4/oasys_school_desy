@@ -7,20 +7,19 @@ Tuesday
 - 11:50 40’ Introduction to SHADOW4
   ```intro_shadow4_40min.pptx```
 
-- 13:30 45’ Introduction to XOPPY and live demo TODO: move to Wed 15:35
-  ```intro_xoppy_with_demo_45min.pptx```
-  ```xoppy_demo.ows xoppy_power.ows```
+- 13:30 45’ Power transport and management in synchrotron beamlines & Live demo
+  Presentation with Philipp Brumund ```BrumundSanchezDelRio_power_transport_45m.pptx``` TODO: move to Tue 15:35
 
 - 15:20 50’ Live demo of SHADOW4 of a SXR beamline
   ```shadow4_photon_transport.ows```
-  ```shadow4_ALS-U_10012_FLEXON.ows ```
+  ```shadow4_ALS-U_10012_FLEXON.ows ``` TODO: move to Tue 13:30
 
 Wednesday
 =========
 
-- 15:35 45’ Power transport calculations (SRCALC XOPPY)
-Presentation with Philipp Brumund ```BrumundSanchezDelRio_power_transport_45m.pptx``` TODO: move to Tue 13:30
-
+- 15:35 45’ Introduction to XOPPY and live demo
+  ```intro_xoppy_with_demo_45min.pptx```
+  ```xoppy_demo.ows xoppy_power.ows```
 
 Thursday
 ========
