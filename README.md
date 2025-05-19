@@ -9,7 +9,7 @@ o MAC USERS: https://github.com/oasys-kit/oasys-installation-scripts/wiki/Instal
 
 o LINUX USERS: https://github.com/oasys-kit/oasys-installation-scripts/wiki/Install-Oasys-in-Linux
 
-o WINDOWS USERS: https://github.com/oasys-kit/oasys-installation-scripts/wiki/Install-Oasys-in-Windows-10%E2%80%9011
+o WINDOWS USERS: https://github.com/oasys-kit/oasys_school_desy/wiki/Install-Oasys-in-Windows-10%E2%80%9011
 
 The couse material is in this repository. Clone or Download it using the corresponding button.
 
