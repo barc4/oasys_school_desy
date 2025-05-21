@@ -19,8 +19,6 @@ class MyFirstWidget(widget.OWWidget):
     category = "Tools"
     keywords = ["data", "file", "load", "read"]
 
-    want_main_area = 1
-
     inputs = [("my_input_data", object, "set_input"),]
 
     outputs = [{"name": "my_output_data",
@@ -41,7 +39,7 @@ class MyFirstWidget(widget.OWWidget):
     field_3 = Setting(1)
     field_4 = Setting(2)
     field_5 = Setting(0)
-    file = "select me!"
+    file  = "select me!"
     notes = Setting("this is a text area")
 
     def __init__(self):
@@ -107,7 +105,7 @@ class MyFirstWidget(widget.OWWidget):
         self.main_tabs = oasysgui.tabWidget(self.mainArea)
 
         plot_tab = oasysgui.createTabPage(self.main_tabs, "Plots")
-        out_tab = oasysgui.createTabPage(self.main_tabs, "Output")
+        out_tab  = oasysgui.createTabPage(self.main_tabs, "Output")
 
     def call_callbacks(self):
         self.set_field_3()

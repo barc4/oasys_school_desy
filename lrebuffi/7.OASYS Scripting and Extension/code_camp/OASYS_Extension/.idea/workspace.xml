@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="bdf33b55-3d95-49c2-8dac-d20a6e1138ac" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../3.Live demo on Shadow4/ISN_Shadow4.ows" beforeDir="false" afterPath="$PROJECT_DIR$/../../../3.Live demo on Shadow4/ISN_Shadow4.ows" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/OASYS_Extension.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/OASYS_Extension.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orangecontrib/my_extension/shadow/widgets/tools/ow_my_first_widget.py" beforeDir="false" afterPath="$PROJECT_DIR$/orangecontrib/my_extension/shadow/widgets/tools/ow_my_first_widget.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
