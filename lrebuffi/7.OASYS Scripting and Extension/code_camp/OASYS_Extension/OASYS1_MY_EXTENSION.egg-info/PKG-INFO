@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: OASYS1-MY-EXTENSION
+Version: 1.0.0
+Summary: WIDGETS DEVELOPED BY ME TO EXTEND OASYS FUNCTIONALITIES
+Home-page: http://github.com/<my repository>
+Author: <my name>
+Author-email: <my email>
+License: MIT
+Download-URL: http://github.com/<my repository>
+Description: # OASYS1-<My-Extension-Name>
+        OASYS Extension by "My Name"
+        
+Keywords: ray-tracing,simulator,oasys1
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: X11 Applications :: Qt
+Classifier: Environment :: Console
+Classifier: Environment :: Plugins
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Science/Research

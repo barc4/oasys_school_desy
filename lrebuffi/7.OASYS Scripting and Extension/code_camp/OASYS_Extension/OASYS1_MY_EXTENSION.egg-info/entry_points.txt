@@ -1,0 +1,9 @@
+[oasys.addons]
+MY SHADOW = orangecontrib.my_extension.shadow
+
+[oasys.menus]
+myshadowmenu = orangecontrib.my_extension.shadow.menu
+
+[oasys.widgets]
+My Shadow Tools = orangecontrib.my_extension.shadow.widgets.tools
+

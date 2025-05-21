@@ -1,0 +1,4 @@
+orangecontrib
+orangecontrib.my_extension
+orangecontrib.my_extension.shadow
+orangecontrib.my_extension.shadow.widgets

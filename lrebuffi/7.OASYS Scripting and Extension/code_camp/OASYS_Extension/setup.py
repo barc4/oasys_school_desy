@@ -1,9 +1,7 @@
 #! /usr/bin/env python3
 
-import imp
 import os
 import sys
-import subprocess
 
 NAME = 'OASYS1-MY-EXTENSION'
 
